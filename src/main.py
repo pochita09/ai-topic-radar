@@ -13,6 +13,7 @@ load_dotenv(ROOT / ".env")
 
 from ai_filter import filter_and_summarize
 from fetcher import fetch_feed
+from hn_fetcher import fetch_hn
 from archive import load_articles, save_articles
 from renderer import render_monitor
 from runtime_config import apply_settings, fetch_settings
@@ -48,7 +49,8 @@ def main() -> None:
             last_seen = get_last_seen(source["url"])
             is_first_run = last_seen is None
 
-            articles, newest_date = fetch_feed(source, last_seen)
+            fetch = fetch_hn if source.get("type") == "hacker_news" else fetch_feed
+            articles, newest_date = fetch(source, last_seen)
 
             if is_first_run:
                 # 初回実行: ウォーターマークを即時保存（配信する記事がないため安全）

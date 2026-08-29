@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "item_id": "0de47b23c411eca002f4007814330e82a6505bb82271ee4968895638699939a5",
+    "title": "I Built a Headless Browser for AI Agents in Rust. No Chromium, No V8",
+    "url": "https://medium.com/@Koukyosyumei/i-built-a-headless-browser-for-ai-agents-entirely-in-rust-no-chromium-no-v8-3750908b8145",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49491404 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-08-29T16:53:51+00:00",
+    "category": "新機能",
+    "importance": "中",
+    "score": 7,
+    "summary_ja": "ChromiumやV8を使用せず、Rustで完全に構築されたAIエージェント向けのヘッドレスブラウザの開発記事。",
+    "title_ja": "AIエージェント向けRust製ヘッドレスブラウザ",
+    "tags": [
+      "Rust",
+      "AIエージェント",
+      "ブラウザ"
+    ],
+    "topic_id": "ai-models",
+    "processed_at": "2026-08-29T17:54:02.789906+00:00"
+  }
+]

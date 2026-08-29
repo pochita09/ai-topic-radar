@@ -24,12 +24,36 @@ themes:
       - name: Google DeepMind Blog
         source_id: deepmind-blog
         url: https://deepmind.google/blog/rss.xml
+      # Phase3実測: anthropic.com直下のrss.xml等の一般的なパスは全て404、
+      # /newsページ内にもfeed用linkタグなし。公式RSS/Atomは存在しないことを確認済み。
+      # コミュニティミラー（Phase0/1で継続稼働を確認済み）をそのまま採用。
       - name: Anthropic News
         source_id: anthropic-news
         url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
       - name: Anthropic Research
         source_id: anthropic-research
         url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml
+      # Phase3: 指示書は「CHANGELOG.mdのコミットAtomフィード」を指定していたが、
+      # 実測すると直近5件すべて "chore: Update CHANGELOG.md and feed.xml" という
+      # 定型botメッセージのみでtitle/summaryに実質的な情報がなかった。
+      # releases.atom はバージョン番号と変更点がsummaryに構造化されているため、
+      # こちらに差し替えた（feedparser経路でそのまま食えることは実測済み）。
+      - name: Claude Code Releases
+        source_id: claude-code-releases
+        url: https://github.com/anthropics/claude-code/releases.atom
+      - name: Anthropic SDK Python Releases
+        source_id: anthropic-sdk-python-releases
+        url: https://github.com/anthropics/anthropic-sdk-python/releases.atom
+      # Phase3: Hacker News用の新規collector（src/hn_fetcher.py）。
+      # urlはウォーターマーク管理用の疑似URL（last_seen.jsonのキーとしてのみ使う）。
+      - name: Hacker News (AI Agent)
+        source_id: hn-ai-agent
+        type: hacker_news
+        url: "hn-search://ai-agent"
+        query: "AI agent"
+        # search_by_date（新着順）は投稿直後でpointsがまだ低い。
+        # ノイズ除去の最低限に留め、「HN上位」かどうかの実質判定はPhase4のGemini採点に委ねる。
+        min_points: 2
     filter_prompt: |
       あなたはAI情報のキュレーターです。以下の記事リストを読み、重要なものだけを選別してください。
 
