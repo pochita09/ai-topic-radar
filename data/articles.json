@@ -1,5 +1,37 @@
 [
   {
+    "item_id": "ab871f07af23b8a5faf0d7d280dd969df49684cd67e670700a00f007015708ea",
+    "title": "Show HN: Lumify – sports intelligence API for agents (try without signup)",
+    "url": "https://lumify.ai/docs/ai",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49491991 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-08-29T18:12:29+00:00",
+    "intro_score": 1,
+    "verification_score": 1,
+    "final_score": 1.0,
+    "summary_ja": "サインアップ不要で試せるAIエージェント向けのスポーツインテリジェンスAPI。",
+    "title_ja": "AIエージェント向けスポーツ情報API「Lumify」",
+    "tags": [
+      "AIエージェント",
+      "API",
+      "スポーツ",
+      "Hacker News"
+    ],
+    "reader_question": "AIエージェントから実際にどのように呼び出して活用できるのか？",
+    "test_idea": "サンプルコードを使ってAPIにリクエストを送り、エージェントでの実用性を試す",
+    "metrics": [
+      "応答速度",
+      "データ網羅性"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "特定のスポーツドメインに特化したAPIであり、一般的なAI開発やワークフロー検証への汎用性が低いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-08-29T18:49:10.162977+00:00"
+  },
+  {
     "item_id": "0de47b23c411eca002f4007814330e82a6505bb82271ee4968895638699939a5",
     "title": "I Built a Headless Browser for AI Agents in Rust. No Chromium, No V8",
     "url": "https://medium.com/@Koukyosyumei/i-built-a-headless-browser-for-ai-agents-entirely-in-rust-no-chromium-no-v8-3750908b8145",
