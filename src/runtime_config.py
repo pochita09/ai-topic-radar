@@ -14,8 +14,11 @@ def settings_payload(config: dict) -> dict:
         "topics": {
             theme["topic_id"]: {
                 "display_name": theme.get("display_name", theme["name"]),
-                "criteria": theme.get("filter_prompt", ""),
-                "threshold": int(theme.get("threshold", 6)),
+                "intro_criteria": theme.get("intro_criteria", ""),
+                "verification_criteria": theme.get("verification_criteria", ""),
+                "intro_weight": float(theme.get("intro_weight", 0.4)),
+                "verification_weight": float(theme.get("verification_weight", 0.6)),
+                "verification_threshold": int(theme.get("verification_threshold", 3)),
                 "sources": {
                     source["source_id"]: {
                         "name": source["name"], "url": source["url"],
@@ -44,13 +47,25 @@ def apply_settings(default_config: dict, settings: object) -> dict:
             saved = topics.get(theme["topic_id"])
             if not isinstance(saved, dict):
                 continue
-            name, criteria, threshold, sources = saved.get("display_name"), saved.get("criteria"), saved.get("threshold"), saved.get("sources")
+            name = saved.get("display_name")
+            intro_criteria = saved.get("intro_criteria")
+            verification_criteria = saved.get("verification_criteria")
+            intro_weight = saved.get("intro_weight")
+            verification_weight = saved.get("verification_weight")
+            verification_threshold = saved.get("verification_threshold")
+            sources = saved.get("sources")
             if isinstance(name, str) and 0 < len(name.strip()) <= 80:
                 theme["display_name"] = name.strip()
-            if isinstance(criteria, str) and 0 < len(criteria.strip()) <= 4_000:
-                theme["filter_prompt"] = criteria.strip()
-            if isinstance(threshold, int) and not isinstance(threshold, bool) and 1 <= threshold <= 10:
-                theme["threshold"] = threshold
+            if isinstance(intro_criteria, str) and 0 < len(intro_criteria.strip()) <= 4_000:
+                theme["intro_criteria"] = intro_criteria.strip()
+            if isinstance(verification_criteria, str) and 0 < len(verification_criteria.strip()) <= 4_000:
+                theme["verification_criteria"] = verification_criteria.strip()
+            if isinstance(intro_weight, (int, float)) and not isinstance(intro_weight, bool) and 0 <= intro_weight <= 1:
+                theme["intro_weight"] = float(intro_weight)
+            if isinstance(verification_weight, (int, float)) and not isinstance(verification_weight, bool) and 0 <= verification_weight <= 1:
+                theme["verification_weight"] = float(verification_weight)
+            if isinstance(verification_threshold, int) and not isinstance(verification_threshold, bool) and 0 <= verification_threshold <= 5:
+                theme["verification_threshold"] = verification_threshold
             if isinstance(sources, dict):
                 # config.yaml がソース一覧の正。KVは各ソースのON/OFFだけを預かる。
                 # KVに無いソースはON、config.yamlに無いソースは無視する。

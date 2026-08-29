@@ -40,20 +40,25 @@ def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved
     topics = []
     for theme in config.get("themes", []):
         topic_id = theme["topic_id"]
-        threshold = int(theme.get("threshold", 6))
+        # Phase4: final_score(紹介価値×重み + 検証価値×重み)で降順ソート。
+        # 表示振り分けは検証価値の足切りライン（既定3）を使う。
+        verification_threshold = int(theme.get("verification_threshold", 3))
         topic_articles = [article for article in articles if article.get("topic_id") == topic_id]
-        topic_articles.sort(key=lambda article: (article.get("score", 0), article.get("published_at", "")), reverse=True)
+        topic_articles.sort(key=lambda article: (article.get("final_score", 0), article.get("published_at", "")), reverse=True)
         for article in topic_articles:
             article["published_label"] = _display_time(article.get("published_at", ""))
         topics.append({
             "topic_id": topic_id,
             "name": theme.get("display_name", theme["name"]),
-            "criteria": theme.get("filter_prompt", ""),
-            "threshold": threshold,
+            "intro_criteria": theme.get("intro_criteria", ""),
+            "verification_criteria": theme.get("verification_criteria", ""),
+            "intro_weight": float(theme.get("intro_weight", 0.4)),
+            "verification_weight": float(theme.get("verification_weight", 0.6)),
+            "verification_threshold": verification_threshold,
             "sources": theme.get("sources", []),
             "keep_below_threshold": bool(config.get("run", {}).get("keep_below_threshold", True)),
-            "above": [article for article in topic_articles if article.get("score", 0) >= threshold],
-            "below": [article for article in topic_articles if article.get("score", 0) < threshold],
+            "above": [article for article in topic_articles if article.get("verification_score", 0) >= verification_threshold],
+            "below": [article for article in topic_articles if article.get("verification_score", 0) < verification_threshold],
         })
 
     env = Environment(

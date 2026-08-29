@@ -74,13 +74,23 @@ class RunSettingsTests(unittest.TestCase):
         merged = runtime_config.apply_settings(base_config(), {"run": {"keep_below_threshold": False}})
         self.assertFalse(merged["run"]["keep_below_threshold"])
 
-    def test_display_name_and_threshold_still_apply(self):
-        settings = {"topics": {"ai-models": {"display_name": "別名", "criteria": "基準", "threshold": 9}}}
+    def test_display_name_and_criteria_still_apply(self):
+        settings = {"topics": {"ai-models": {
+            "display_name": "別名",
+            "intro_criteria": "紹介基準",
+            "verification_criteria": "検証基準",
+            "intro_weight": 0.3,
+            "verification_weight": 0.7,
+            "verification_threshold": 4,
+        }}}
         merged = runtime_config.apply_settings(base_config(), settings)
         theme = merged["themes"][0]
         self.assertEqual(theme["display_name"], "別名")
-        self.assertEqual(theme["filter_prompt"], "基準")
-        self.assertEqual(theme["threshold"], 9)
+        self.assertEqual(theme["intro_criteria"], "紹介基準")
+        self.assertEqual(theme["verification_criteria"], "検証基準")
+        self.assertEqual(theme["intro_weight"], 0.3)
+        self.assertEqual(theme["verification_weight"], 0.7)
+        self.assertEqual(theme["verification_threshold"], 4)
 
 
 class FetchSettingsTests(unittest.TestCase):

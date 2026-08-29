@@ -55,32 +55,68 @@ class ArchiveTests(unittest.TestCase):
                 self.assertEqual(json.loads(path.read_text(encoding="utf-8"))[0]["item_id"], "one")
 
 
+def _theme(**overrides):
+    theme = {"topic_id": "test", "intro_criteria": "intro", "verification_criteria": "verification"}
+    theme.update(overrides)
+    return theme
+
+
+def _result(**overrides):
+    result = {
+        "index": 1, "title_ja": "短い日本語見出し", "summary_ja": "有効な要約", "tags": ["API"],
+        "intro_score": 4, "verification_score": 3, "reader_question": "本当に速いのか？",
+        "test_idea": "手元で計測する", "metrics": ["所要時間"], "estimated_time": "30分",
+        "estimated_cost_level": "low", "decision": "GO", "reason": "強いデモがある",
+    }
+    result.update(overrides)
+    return result
+
+
 class GeminiValidationTests(unittest.TestCase):
     def test_keeps_short_japanese_title_when_gemini_returns_one(self):
-        response = types.SimpleNamespace(text=json.dumps({"results": [
-            {"index": 1, "score": 8, "title_ja": "短い日本語見出し", "summary_ja": "有効な要約", "tags": ["API"]},
-        ]}))
+        response = types.SimpleNamespace(text=json.dumps({"results": [_result()]}))
         client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=lambda **kwargs: response))
         with patch.object(ai_filter.genai, "Client", return_value=client), patch.dict("os.environ", {"GEMINI_API_KEY": "test"}):
             result = ai_filter.filter_and_summarize([
                 {"item_id": "one", "title": "original title", "url": "https://example.com/1", "summary": "", "published_at": "2026-01-01T00:00:00+00:00"},
-            ], {"topic_id": "test", "filter_prompt": "criteria"}, "test-model")
+            ], _theme(), "test-model")
         self.assertEqual(result[0]["title_ja"], "短い日本語見出し")
 
     def test_invalid_single_result_does_not_abort_valid_results(self):
         response = types.SimpleNamespace(text=json.dumps({"results": [
-            {"index": 1, "score": 8, "summary_ja": "有効な要約", "tags": ["API"]},
-            {"index": 2, "score": "bad", "summary_ja": "無効", "tags": ["x"]},
+            _result(index=1),
+            _result(index=2, verification_score="bad"),
         ]}))
         client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=lambda **kwargs: response))
         with patch.object(ai_filter.genai, "Client", return_value=client), patch.dict("os.environ", {"GEMINI_API_KEY": "test"}):
             result = ai_filter.filter_and_summarize([
                 {"item_id": "one", "title": "one", "url": "https://example.com/1", "summary": "", "published_at": "2026-01-01T00:00:00+00:00"},
                 {"item_id": "two", "title": "two", "url": "https://example.com/2", "summary": "", "published_at": "2026-01-01T00:00:00+00:00"},
-            ], {"topic_id": "test", "filter_prompt": "criteria"}, "test-model")
+            ], _theme(), "test-model")
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]["topic_id"], "test")
-        self.assertEqual(result[0]["score"], 8)
+        self.assertEqual(result[0]["intro_score"], 4)
+
+    def test_final_score_uses_theme_weights(self):
+        response = types.SimpleNamespace(text=json.dumps({"results": [_result(intro_score=4, verification_score=5)]}))
+        client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=lambda **kwargs: response))
+        with patch.object(ai_filter.genai, "Client", return_value=client), patch.dict("os.environ", {"GEMINI_API_KEY": "test"}):
+            result = ai_filter.filter_and_summarize([
+                {"item_id": "one", "title": "one", "url": "https://example.com/1", "summary": "", "published_at": "2026-01-01T00:00:00+00:00"},
+            ], _theme(intro_weight=0.4, verification_weight=0.6), "test-model")
+        self.assertAlmostEqual(result[0]["final_score"], 4 * 0.4 + 5 * 0.6)
+
+    def test_skip_decision_is_kept_with_zero_scores(self):
+        response = types.SimpleNamespace(text=json.dumps({"results": [
+            _result(intro_score=0, verification_score=0, decision="SKIP", reason="人事ニュースのため除外"),
+        ]}))
+        client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=lambda **kwargs: response))
+        with patch.object(ai_filter.genai, "Client", return_value=client), patch.dict("os.environ", {"GEMINI_API_KEY": "test"}):
+            result = ai_filter.filter_and_summarize([
+                {"item_id": "one", "title": "one", "url": "https://example.com/1", "summary": "", "published_at": "2026-01-01T00:00:00+00:00"},
+            ], _theme(), "test-model")
+        self.assertEqual(result[0]["decision"], "SKIP")
+        self.assertEqual(result[0]["final_score"], 0)
 
 
 if __name__ == "__main__":

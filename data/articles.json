@@ -7,17 +7,29 @@
     "source": "Hacker News (AI Agent)",
     "channel": "Hacker News",
     "published_at": "2026-08-29T16:53:51+00:00",
-    "category": "新機能",
-    "importance": "中",
-    "score": 7,
-    "summary_ja": "ChromiumやV8を使用せず、Rustで完全に構築されたAIエージェント向けのヘッドレスブラウザの開発記事。",
-    "title_ja": "AIエージェント向けRust製ヘッドレスブラウザ",
+    "intro_score": 4,
+    "verification_score": 5,
+    "final_score": 4.6,
+    "summary_ja": "ChromiumやV8を使わずRustで実装された、AIエージェント用のヘッドレスブラウザ。",
+    "title_ja": "Rust製のAIエージェント向け軽量ブラウザ",
     "tags": [
       "Rust",
       "AIエージェント",
-      "ブラウザ"
+      "ヘッドレスブラウザ",
+      "OSS"
     ],
+    "reader_question": "既存のPuppeteerやPlaywrightと比べてリソース消費や動作速度はどう違うのか？",
+    "test_idea": "実際にビルドしてAIエージェントからスクレイピングやページ操作を実行し、速度とメモリ使用量を計測する。",
+    "metrics": [
+      "メモリ使用量",
+      "起動速度",
+      "ページ読み込み速度"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "Hacker Newsで話題になった自作OSSであり、既存ツールとの比較検証が可能。",
     "topic_id": "ai-models",
-    "processed_at": "2026-08-29T17:54:02.789906+00:00"
+    "processed_at": "2026-08-29T18:23:59.266582+00:00"
   }
 ]
