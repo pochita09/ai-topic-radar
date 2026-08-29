@@ -1,0 +1,10 @@
+.env
+service_account.json
+src/output/
+templates/email.html
+worker/node_modules/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/

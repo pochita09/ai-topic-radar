@@ -1,0 +1,50 @@
+ai:
+  provider: gemini
+  # gemini-2.5-flash-lite は新しいAPIキーでは 404 になるため移行先を指定する。
+  model: gemini-3.5-flash-lite
+
+# Worker URLの差し替えはここ1箇所だけでよい（/feedback, /config は共通のWorkerのパス違い）。
+worker_url: "https://ai-topic-radar-feedback.takaline.workers.dev"
+
+run:
+  # 実行時刻は .github/workflows/monitor.yml の cron が正。
+  keep_below_threshold: true
+  read_dim_enabled: true
+
+themes:
+  - topic_id: ai-models
+    name: AIモデル系
+    display_name: AIモデル系
+    threshold: 6
+    sheet_tab: AIモデル系
+    sources:
+      - name: OpenAI News
+        source_id: openai-news
+        url: https://openai.com/news/rss.xml
+      - name: Google DeepMind Blog
+        source_id: deepmind-blog
+        url: https://deepmind.google/blog/rss.xml
+      - name: Anthropic News
+        source_id: anthropic-news
+        url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+      - name: Anthropic Research
+        source_id: anthropic-research
+        url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml
+    filter_prompt: |
+      あなたはAI情報のキュレーターです。以下の記事リストを読み、重要なものだけを選別してください。
+
+      【選別基準（いずれかに該当すれば選別対象）】
+      - 新しいAIモデルのリリース・発表
+      - 新機能・API変更
+      - 価格改定
+      - 重要な研究成果・論文
+      - 業界に大きな影響を与えるニュース
+
+      【除外基準（これに該当する場合は除外）】
+      - 採用情報・求人
+      - イベント告知（カンファレンス・ウェビナー等）
+      - 一般的なブログ記事（技術的な新規性がないもの）
+
+      各記事に以下を付与し、1〜2行の日本語で要約してください。
+      - カテゴリ: 新モデル／新機能／価格改定／研究・論文／その他
+      - 重要度: 高（業界全体に影響）／中（一部のユーザーに影響）／低（参考程度）

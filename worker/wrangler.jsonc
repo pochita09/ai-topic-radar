@@ -1,0 +1,11 @@
+{
+	"name": "ai-topic-radar-feedback",
+	"main": "src/index.js",
+	"compatibility_date": "2026-08-15",
+	"kv_namespaces": [
+		{
+			"binding": "FEEDBACK",
+			"id": "99c18e8888844556a9282d28a613a779"
+		}
+	]
+}
