@@ -4,6 +4,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from runtime_config import settings_payload
+from selection import select_top5
 
 
 ROOT = Path(__file__).parent.parent
@@ -33,20 +34,22 @@ def _display_time(timestamp: str) -> str:
         return timestamp
 
 
-def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved_count: int) -> Path:
-    """Render the Phase 1 static Monitor page from the local article archive."""
+def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved_count: int, report_date: str) -> Path:
+    """Render the static Monitor page from the local article archive."""
     # Do not create a Pages-only diff merely because a no-op scheduled run occurred.
     archive_updated_at = max((article.get("processed_at", "") for article in articles), default="")
     topics = []
     for theme in config.get("themes", []):
         topic_id = theme["topic_id"]
-        # Phase4: final_score(紹介価値×重み + 検証価値×重み)で降順ソート。
-        # 表示振り分けは検証価値の足切りライン（既定3）を使う。
         verification_threshold = int(theme.get("verification_threshold", 3))
         topic_articles = [article for article in articles if article.get("topic_id") == topic_id]
         topic_articles.sort(key=lambda article: (article.get("final_score", 0), article.get("published_at", "")), reverse=True)
         for article in topic_articles:
             article["published_label"] = _display_time(article.get("published_at", ""))
+        # Phase5: 表に出すのは本日(JST)のTOP5だけ。それ以外は全部「below」にまとめて折りたたむ
+        # （閾値未満だけでなく、閾値は満たすが本日のTOP5に入らなかったものも含む）。
+        top5 = select_top5(topic_articles, topic_id, verification_threshold, report_date)
+        top5_ids = {article["item_id"] for article in top5}
         topics.append({
             "topic_id": topic_id,
             "name": theme.get("display_name", theme["name"]),
@@ -57,8 +60,8 @@ def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved
             "verification_threshold": verification_threshold,
             "sources": theme.get("sources", []),
             "keep_below_threshold": bool(config.get("run", {}).get("keep_below_threshold", True)),
-            "above": [article for article in topic_articles if article.get("verification_score", 0) >= verification_threshold],
-            "below": [article for article in topic_articles if article.get("verification_score", 0) < verification_threshold],
+            "above": top5,
+            "below": [article for article in topic_articles if article["item_id"] not in top5_ids],
         })
 
     env = Environment(

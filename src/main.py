@@ -16,7 +16,9 @@ from fetcher import fetch_feed
 from hn_fetcher import fetch_hn
 from archive import load_articles, save_articles
 from renderer import render_monitor
+from report import write_report
 from runtime_config import apply_settings, fetch_settings
+from selection import jst_date, select_top5
 from state import get_last_seen, update_last_seen, update_many
 
 MAX_ARTICLES_PER_CALL = 100  # 1回の実行でAIに渡す記事数の上限
@@ -120,7 +122,18 @@ def main() -> None:
 
     try:
         all_articles = save_articles(archive, saved_articles) if saved_articles else archive
-        output = render_monitor(all_articles, config, fetched_count, len(saved_articles))
+        # Phase5: final_score降順で上位5件だけを出す（JST日付基準、cronのJST時刻と揃える）。
+        # HTML・日次レポートの両方でこの同じ選抜結果を使う。
+        report_date = jst_date(datetime.now(timezone.utc).isoformat())
+        output = render_monitor(all_articles, config, fetched_count, len(saved_articles), report_date)
+        sections = [
+            (
+                theme.get("display_name", theme["name"]),
+                select_top5(all_articles, theme["topic_id"], int(theme.get("verification_threshold", 3)), report_date),
+            )
+            for theme in config["themes"]
+        ]
+        report_path = write_report(sections, report_date)
         state_changes = {
             feed_url: timestamp
             for feed_url, timestamp in pending_state.items()
@@ -132,6 +145,7 @@ def main() -> None:
         return
     print(f"  状態更新: {len(state_changes)}ソース")
     print(f"  HTML生成: {output}")
+    print(f"  レポート生成: {report_path}")
     print(f"\n完了: 保存 {len(saved_articles)}件 / HTML: {output}")
 
 
