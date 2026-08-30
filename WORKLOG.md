@@ -31,3 +31,5 @@ Phase 4以降、作業のたびに以下の衝突が繰り返し発生した:
 1. `gh workflow enable monitor.yml --repo pochita09/ai-topic-radar`
 2. `gh workflow list --repo pochita09/ai-topic-radar --all` で`active`になったことを確認
 3. このWORKLOGのこのエントリに「再開済み（日時）」を追記
+
+**再開済み（2026-08-30、Phase 5完了・公開URLでの動作確認後）。** `gh workflow list --all`で`active`を確認済み。次のJST 07:00/13:00/21:00のcronから通常運用に戻る。
