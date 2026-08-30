@@ -21,6 +21,9 @@ def _render_section(theme_name: str, top5: list[dict]) -> str:
         lines.append(f"- 推奨する検証方法: {article.get('test_idea', '')}")
         lines.append(f"- 測るべき数字: {'、'.join(metrics) if metrics else 'なし'}")
         lines.append(f"- 推定所要時間: {article.get('estimated_time', '')} ／ 推定費用: {article.get('estimated_cost_level', '')}")
+        merged_sources = article.get("merged_sources")
+        if merged_sources:
+            lines.append(f"- 情報源: {' / '.join(merged_sources)}")
         lines.append(f"- 一次情報URL: {article.get('url', '')}")
         lines.append("")
     return "\n".join(lines)

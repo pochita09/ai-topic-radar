@@ -48,6 +48,10 @@ class RenderReportTests(unittest.TestCase):
         md = report.render_report([("AI検証ネタ", [_article(metrics=[])])], "2026-08-30")
         self.assertIn("なし", md)
 
+    def test_shows_merged_sources_when_present(self):
+        md = report.render_report([("AI検証ネタ", [_article(merged_sources=["Claude Code Releases", "Hacker News (AI Agent)"])])], "2026-08-30")
+        self.assertIn("Claude Code Releases / Hacker News (AI Agent)", md)
+
     def test_multiple_themes_do_not_overwrite_each_other(self):
         md = report.render_report([
             ("テーマA", [_article(title_ja="A-1件目")]),

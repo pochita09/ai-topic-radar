@@ -18,8 +18,9 @@ from archive import load_articles, save_articles
 from renderer import render_monitor
 from report import write_report
 from runtime_config import apply_settings, fetch_settings
-from selection import jst_date, select_top5
+from selection import candidates_for_date, jst_date, top5_of
 from state import get_last_seen, update_last_seen, update_many
+from theme_merge import merge_candidates
 
 MAX_ARTICLES_PER_CALL = 100  # 1回の実行でAIに渡す記事数の上限
 
@@ -122,15 +123,19 @@ def main() -> None:
 
     try:
         all_articles = save_articles(archive, saved_articles) if saved_articles else archive
-        # Phase5: final_score降順で上位5件だけを出す（JST日付基準、cronのJST時刻と揃える）。
-        # HTML・日次レポートの両方でこの同じ選抜結果を使う。
+        # Phase5/6: 候補を絞り→同一テーマを統合→final_score降順で上位5件（JST日付基準、
+        # cronのJST時刻と揃える）。HTML・日次レポートの両方でこの同じ選抜結果を使う。
         report_date = jst_date(datetime.now(timezone.utc).isoformat())
-        output = render_monitor(all_articles, config, fetched_count, len(saved_articles), report_date)
+        top5_by_topic: dict[str, list[dict]] = {}
+        for theme in config["themes"]:
+            topic_id = theme["topic_id"]
+            verification_threshold = int(theme.get("verification_threshold", 3))
+            candidates = candidates_for_date(all_articles, topic_id, verification_threshold, report_date)
+            merged = merge_candidates(candidates, model_name)
+            top5_by_topic[topic_id] = top5_of(merged)
+        output = render_monitor(all_articles, config, fetched_count, len(saved_articles), top5_by_topic)
         sections = [
-            (
-                theme.get("display_name", theme["name"]),
-                select_top5(all_articles, theme["topic_id"], int(theme.get("verification_threshold", 3)), report_date),
-            )
+            (theme.get("display_name", theme["name"]), top5_by_topic[theme["topic_id"]])
             for theme in config["themes"]
         ]
         report_path = write_report(sections, report_date)

@@ -4,7 +4,6 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from runtime_config import settings_payload
-from selection import select_top5
 
 
 ROOT = Path(__file__).parent.parent
@@ -34,7 +33,7 @@ def _display_time(timestamp: str) -> str:
         return timestamp
 
 
-def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved_count: int, report_date: str) -> Path:
+def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved_count: int, top5_by_topic: dict[str, list[dict]]) -> Path:
     """Render the static Monitor page from the local article archive."""
     # Do not create a Pages-only diff merely because a no-op scheduled run occurred.
     archive_updated_at = max((article.get("processed_at", "") for article in articles), default="")
@@ -46,9 +45,9 @@ def render_monitor(articles: list[dict], config: dict, fetched_count: int, saved
         topic_articles.sort(key=lambda article: (article.get("final_score", 0), article.get("published_at", "")), reverse=True)
         for article in topic_articles:
             article["published_label"] = _display_time(article.get("published_at", ""))
-        # Phase5: 表に出すのは本日(JST)のTOP5だけ。それ以外は全部「below」にまとめて折りたたむ
-        # （閾値未満だけでなく、閾値は満たすが本日のTOP5に入らなかったものも含む）。
-        top5 = select_top5(topic_articles, topic_id, verification_threshold, report_date)
+        # Phase5/6: 表に出すのは本日(JST)・テーマ統合後のTOP5だけ（main.pyで算出済み）。
+        # それ以外は全部「below」にまとめて折りたたむ（閾値未満・本日のTOP5に入らなかったもの両方）。
+        top5 = top5_by_topic.get(topic_id, [])
         top5_ids = {article["item_id"] for article in top5}
         topics.append({
             "topic_id": topic_id,
