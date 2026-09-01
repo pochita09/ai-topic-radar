@@ -1,5 +1,675 @@
 [
   {
+    "item_id": "1d3581960e94b8568345d57b1a8c702482f75de6f8a5153323df88d94698bee7",
+    "title": "How AI-native companies turn workflows into operating capability",
+    "url": "https://openai.com/index/ai-native-company-workflows",
+    "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+    "source": "OpenAI News",
+    "channel": "RSS",
+    "published_at": "2026-09-01T17:00:00+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "企業がAIエージェントを導入してオンボーディングや顧客管理を効率化している実例の紹介。",
+    "title_ja": "AIネイティブ企業によるワークフロー最適化の事例",
+    "tags": [
+      "AIエージェント",
+      "ワークフロー",
+      "業務効率化"
+    ],
+    "reader_question": "自社のワークフローにどうAIエージェントを組み込めるか？",
+    "test_idea": "特定の業務プロセスを切り出し、AIエージェントで自動化できるかプロトタイプを作る。",
+    "metrics": [
+      "作業時間削減率"
+    ],
+    "estimated_time": "3日",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "一般的な導入事例の紹介であり、独自の検証が難しいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "b066f3bd6087e32bc663c1f2093754927a44214027c043afd78de43c58b35d28",
+    "title": "Path to Astra: critical capabilities and frontier safeguards",
+    "url": "https://openai.com/index/path-to-astra",
+    "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+    "source": "OpenAI News",
+    "channel": "RSS",
+    "published_at": "2026-09-01T13:00:00+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "OpenAIのモデルとして初めてサイバーセキュリティの基準を満たしたAstraの解説。",
+    "title_ja": "OpenAIの新モデル「Astra」のセキュリティ機能",
+    "tags": [
+      "OpenAI",
+      "セキュリティ",
+      "モデル比較"
+    ],
+    "reader_question": "既存モデルと比較して何が優れているのか？",
+    "test_idea": "公開されている仕様書を基にセキュリティ性能を机上で比較する。",
+    "metrics": [
+      "対応セキュリティ基準"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文や公式発表の紹介のみに近く、個人での検証が困難なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "4470f186c1ebba4e66c72350adfef404d6284f5ae12046a902eed775309fd263",
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+    "source": "OpenAI News",
+    "channel": "RSS",
+    "published_at": "2026-09-01T12:00:00+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "医療機関が電子カルテ等のデータをChatGPTに安全に接続できる機能の提供開始。",
+    "title_ja": "医療データとChatGPTの連携機能",
+    "tags": [
+      "ChatGPT",
+      "医療",
+      "データ連携"
+    ],
+    "reader_question": "どのような医療データを安全に処理できるのか？",
+    "test_idea": "公式ドキュメントの読み込みとAPI連携仕様の確認。",
+    "metrics": [
+      "連携可能なデータ形式"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "医療データの性質上、一般ユーザーが手元で検証することが不可能なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "2ed0af0acb952af93fda8f50525b61e953a1da57e8427db841503f6176d5d87f",
+    "title": "Introducing agentic video understanding with Gemini",
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "summary": "",
+    "source": "Google DeepMind Blog",
+    "channel": "RSS",
+    "published_at": "2026-09-01T17:08:51+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "Geminiにおける高度なエージェント型動画理解機能の概要と仕組み。",
+    "title_ja": "Geminiのエージェント型動画理解機能",
+    "tags": [
+      "Gemini",
+      "動画理解",
+      "AIエージェント"
+    ],
+    "reader_question": "動画のどの程度詳細な文脈を理解できるのか？",
+    "test_idea": "APIや提供インターフェースを使い、長尺動画を使った検索・質問の精度をテストする。",
+    "metrics": [
+      "質問の正解率",
+      "処理時間"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文・機能紹介の範疇であり、手元の具体的な検証設計が薄いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "9f777e04c35f19b1a1f8776c440acc4e608240241c68dae9b5ce9ed563317b08",
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "summary": "Developing Enterprise Frontier Safeguards with our customers",
+    "source": "Anthropic News",
+    "channel": "RSS",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "Anthropicが顧客と共に開発する企業向けの安全性機能についての取り組み。",
+    "title_ja": "エンタープライズ向けセーフガードの策定",
+    "tags": [
+      "Anthropic",
+      "セキュリティ",
+      "AI開発"
+    ],
+    "reader_question": "企業向けセーフガードで何が制限されるのか？",
+    "test_idea": "公式ブログのポリシー確認のみ。",
+    "metrics": [
+      "制限項目数"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "企業の安全性の取り組みに関するニュースであり、実機検証の対象外のため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "0c0403e52e9e97a2efc85040d31908926db6a3073ba02526932cca40c2fa6a61",
+    "title": "v2.1.258",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+    "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255</li>\n<li>Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied</li>\n</ul>",
+    "source": "Claude Code Releases",
+    "channel": "RSS",
+    "published_at": "2026-09-01T22:33:20+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "macOS Montereyでの起動失敗やセッションエラーの不具合を修正したバージョン。",
+    "title_ja": "Claude Code v2.1.258リリースノート",
+    "tags": [
+      "Claude Code",
+      "バグ修正",
+      "AIコーディング"
+    ],
+    "reader_question": "手元の環境のバグが修正されているか？",
+    "test_idea": "該当OS環境でバージョンアップして起動を確認する。",
+    "metrics": [
+      "起動成功率"
+    ],
+    "estimated_time": "30分",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "細かすぎるバグ修正のため検証価値が低いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "ad9a84f12fb9d2a8514f2777d09c661ab80e2c7e6f324e9342ea051768ea06cd",
+    "title": "v2.1.257",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+    "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Fable 5.1 (<code>claude-fable-5-1</code>), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads</li>\n<li>Added \"Time format\" (<code>timeFormat</code>) and <code>timeZone</code> settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps</li>\n<li>Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress evasion, and cross-tenant reach are no longer auto-approved unless your environment marks them expected</li>\n<li>Added <code>CLAUDE_CODE_SUBAGENT_MODEL_FORCE</code> to apply <code>CLAUDE_CODE_SUBAGENT_MODEL</code> (or the main model) to every subagent, ignoring per-spawn and agent-definition model overrides</li>\n<li>Added <code>s</code> in <code>/effort</code> to change effort for the current session only, matching <code>/model</code></li>\n<li>Added a <code>/doctor</code> warning for stale sandbox mask files left by a killed session</li>\n<li>Added a one-time prompt in auto mode before the first file read outside the working directories, with the option to block such reads (<code>permissions.blockReadsOutsideWorkingDirectories</code>)</li>\n<li>Added support for a gateway-supplied <code>description</code> on discovered <code>/model</code> picker entries (<code>CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY</code>); entries without one still read \"From gateway\"</li>\n<li>Fixed settings in a <code>.claude/</code> folder created after startup not being picked up until restart</li>\n<li>Fixed sessions dispatched from an agent view opened with <code>←</code> always starting in the original session's permission mode, overriding the target directory's <code>defaultMode</code> and the agent's <code>permissionMode</code></li>\n<li>Fixed <code>keybindings.json</code> rebinds of Ctrl+G being ignored in <code>claude agents</code>; its Ctrl+S / Ctrl+T are now rebindable via the new <code>Agents</code> context</li>\n<li>Fixed background sessions failing to start on macOS npm installs during a self-update, and on Windows when a stale daemon lock file pointed at a reused process id</li>\n<li>Fixed the working spinner stopping while a response streams behind a slash-command panel</li>\n<li>Fixed a background session's <code>state.json</code> <code>detail</code> repeating its own dispatch prompt after a scheduled wake-up</li>\n<li>Fixed <code>claude agents</code> keeping a background session you re-prompted buried in Completed after it finished again; Completed now orders by the latest finish</li>\n<li>Fixed <code>claude --bg</code> from a directory that was just deleted reporting \"backgrounded\" and leaving a crashed session row; it now prints the reason and exits 1</li>\n<li>Fixed Remote Control connecting mid-session re-sending the Bash tool definition, causing a prompt-cache miss</li>\n<li>Fixed a doubly-listed custom <code>Authorization</code> header overriding the configured credential on Bedrock, Mantle, Vertex, and WIF, and the Vertex setup wizard picking up a leftover Anthropic profile from <code>~/.config/anthropic</code></li>\n<li>Fixed Claude apps gateway sending stray host <code>Authorization</code> or profile headers to Foundry, Vertex, and Bedrock, and Foundry Entra ID upstreams not starting when <code>ANTHROPIC_FOUNDRY_API_KEY</code> is set</li>\n<li>Fixed a leftover Anthropic API key or auth token being sent alongside your Foundry subscription key in API-key mode</li>\n<li>Fixed <code>/schedule</code> routines whose prompt was saved without a message role and then ran with nothing to do</li>\n<li>Fixed <code>claude agents</code> not saying that a background session is waiting for you to approve a message from another session, or who sent it</li>\n<li>Fixed a prompt stashed with Ctrl+S inside an opened background session being lost when the session went idle or was stopped and then reopened</li>\n<li>Fixed telemetry (OTEL) settings pushed through server-managed settings being ignored on warm starts, including desktop-app Code sessions</li>\n<li>Fixed a teammate permission request being answered twice when the leader's mailbox write was briefly locked</li>\n<li>Fixed a phantom duplicate slash-command row rendering below the in-flight turn while a command's auto-continued response streamed</li>\n<li>Fixed <code>policyHelper</code> <code>timeoutMs</code> and <code>refreshIntervalMs</code> values above the timer maximum (2147483647) causing failures or re-runs every millisecond; they are now clamped</li>\n<li>Fixed the token counter freezing or crawling after switching to another subagent's transcript, and made background subagents' and teammates' counters update live while a response streams</li>\n<li>Fixed sandbox network hosts written with a trailing dot (<code>example.com.</code>): a <code>deniedDomains</code> entry didn't block the host inside the sandbox, and \"don't ask again\" for such a host kept prompting</li>\n<li>Fixed dismissing the Remote Control consent prompt (Esc, or <code>n</code> at <code>claude remote-control</code>) counting as consent, so the next request connected without asking</li>\n<li>Fixed <code>/mcp</code> reconnect and enable still connecting a settings-file MCP server that a managed MCP allow/deny list or <code>strictPluginOnlyCustomization</code> loaded after startup should block</li>\n<li>Fixed <code>claude mcp remove</code> leaving a remote server's stored OAuth credentials behind when <code>strictPluginOnlyCustomization</code> locks MCP to plugin-only servers</li>\n<li>Fixed Remote Control (<code>claude remote-control</code>) sessions started from the Claude app ignoring the selected model and running on the machine's default instead</li>\n<li>Fixed <code>--disallowedTools</code> and session deny rules being dropped after the first settings reload when <code>allowManagedPermissionRulesOnly</code> is enabled</li>\n<li>Fixed <code>--resume</code> listing a backgrounded conversation twice and <code>--continue</code> reopening its stalled pre-background copy; <code>--continue</code> now also opens finished background sessions</li>\n<li>Fixed fullscreen mode not letting you click <code>!</code> shell command output to expand it</li>\n<li>Fixed background sessions left running an older Claude Code binary piling up across auto-updates instead of being retired</li>\n<li>Fixed <code>claude agents --json</code> briefly switching the terminal to raw mode and undoing another program's terminal settings on exit</li>\n<li>Fixed Proactive output style sessions busy-looping with filler messages and repeated log reads instead of idling while a background command or Monitor they started is still running</li>\n<li>Fixed subagents stopping when a response was cut off mid-stream by a computer sleep, dropped connection, or server error; they now automatically continue instead of ending with an incomplete response</li>\n<li>Fixed <code>←</code> doing nothing in the <code>/btw</code> panel inside a <code>claude agents</code> session: it now returns to the agents list (even mid-answer), and the panel comes back when you reopen the session</li>\n<li>Fixed sessions with an advisor model set missing the prompt cache on background requests (compaction, <code>/recap</code>, prompt suggestions) and re-sending the full conversation uncached each time</li>\n<li>Fixed <code>claude -p</code> exiting about 5 seconds after its final result while a Monitor the model armed was still running; it now waits for the watch to fire or time out</li>\n<li>Fixed a <code>permissions.ask</code> rule being skipped in auto mode when the matching command ran inside a compound command or subshell, letting it run without the confirmation prompt</li>\n<li>Fixed plugins being able to read files outside their own directory through a declared command, agent, skill, hooks or other component path that is a symlink; such paths are now refused with an error</li>\n<li>Fixed <code>/add-dir</code> rejecting a directory inside the current working directory; it now loads that directory's skills, commands, and agents like <code>--add-dir</code> does at startup</li>\n<li>Fixed the main agent not being told when you resume a subagent you had stopped from its transcript view</li>\n<li>Fixed a crash when pasting ANSI-colored text (e.g. a CI log) into dialogs like <code>/feedback</code></li>\n<li>Fixed <code>claude mcp add/remove</code> hanging or exhausting memory when the project's <code>.mcp.json</code> is a FIFO or a device-file symlink; it now fails fast with an actionable message</li>\n<li>Fixed unbounded memory growth when non-JSONL data is piped into <code>claude -p --input-format stream-json</code>; it now fails fast with a clear error</li>\n<li>Fixed backgrounding a turn (<code>←</code> or Ctrl+B) while a subagent or other tool was running occasionally making the background session treat that tool as rejected instead of re-running it</li>\n<li>Fixed Bash <code>Read()</code>/<code>Edit()</code> deny rules not applying to <code>&lt; file</code> redirects and reader commands like <code>tac</code> and <code>egrep</code>; a deny rule on any argument or redirect target now refuses the command</li>\n<li>Fixed resuming or messaging a subagent whose transcript had grown past 5 MB (for example after reading many images) failing with \"No transcript found\"</li>\n<li>Fixed worktree-isolated sessions refusing Bash loops, <code>$VAR</code> reads, <code>\"$(…)\"</code> and heredocs that never touch git as \"too complex to verify that it stays inside the worktree\"</li>\n<li>Fixed <code>/model</code> and <code>/effort</code> showing a prompt-cache warning after rewinding a conversation back to empty</li>\n<li>Fixed prompt-cache misses on every turn in long screenshot-heavy sessions once images exceeded the per-request size cap</li>\n<li>Fixed the Edit permission prompt's diff view rendering emoji and multi-code-point characters with incorrect widths</li>\n<li>Fixed WebSocket MCP server connection failures being logged as \"[object ErrorEvent]\" instead of the underlying error</li>\n<li>Fixed background sessions failing to open with \"Couldn't start the background service\" while another Claude Code process was downloading an npm update; the start now waits for it</li>\n<li>Fixed background commands that detach from their shell (for example under <code>timeout</code> or <code>setsid</code>) surviving a task stop or Claude Code exit</li>\n<li>Fixed Claude not being told when you stop a background command from the tasks panel or a connected client</li>\n<li>Fixed stopping a background subagent leaving its monitors running</li>\n<li>Fixed sandboxed git commands in a linked worktree losing write access to the repository's common <code>.git</code> directory after <code>cd</code> into a subdirectory</li>\n<li>Fixed Bedrock and Bedrock Mantle requests going silent during long hidden-thinking phases on Opus 4.7 and later, which let idle timeouts cut the connection; the stream now carries progress events</li>\n<li>Fixed launching Claude Code after a Claude apps gateway expired or revoked your session: it now says the session ended and offers <code>/login</code> instead of reporting a network error</li>\n<li>Fixed cloud sessions losing git/GitHub credentials for the rest of the session when the session's network proxy failed to start at launch; it now retries in the background and recovers</li>\n<li>Fixed leftover <code>cc-daemon-*</code> folders in the system temp directory after an interrupted background daemon start; the <code>cleanupPeriodDays</code> retention sweep now removes them</li>\n<li>Fixed Bash permission checks auto-approving certain <code>[[ ]]</code> conditionals that zsh parses differently from bash; these commands now prompt for approval</li>\n<li>Fixed the managed-settings approval prompt showing the generic warning instead of its telemetry wording when the settings also turn detailed tracing or raw API body logging off, or trace export on</li>\n<li>Fixed agent-team teammates in tmux/iTerm2 panes sometimes staying open after acknowledging a shutdown request</li>\n<li>Fixed the keyless Console sign-in (\"Sign in with your Console account\") not applying your organization's server-managed settings, and <code>/status</code> not showing the Organization for that sign-in</li>\n<li>Improved rendering performance: less re-render work per turn in long conversations, streaming no longer slows down as the reply grows, and background-agent updates no longer re-render the whole screen</li>\n<li>Improved prompt input responsiveness by reducing per-keystroke rendering work</li>\n<li>Improved policy helper diagnostics — refresh failures now show in <code>/status</code>, declining the managed-settings dialog prints why Claude Code exited, and helper timeouts are reported as timeouts</li>\n<li>Improved <code>/code-review --comment</code> to post findings on GitLab merge requests via <code>glab mr note</code> instead of reporting the target as unsupported</li>\n<li>Improved notifications: an MCP elicitation or permission ask queued under another dialog now sends its idle desktop notification at the same delay as a visible ask</li>\n<li>Improved verbose/transcript output: async hook completion notices that arrive together now appear on one line instead of one line per hook</li>\n<li>Improved <code>claude self-hosted-runner --configure-git</code> to also enable git push negotiation, so the first push of a new branch from a stale clone uploads only the new commits instead of the whole tree</li>\n<li>Improved liveness reporting to SDK hosts while a response is held open by gateway keep-alives, so long waits under a raised <code>CLAUDE_STREAM_IDLE_TIMEOUT_MS</code> are not mistaken for a hung session</li>\n<li>Improved MCP connection and OAuth debug/error logs so credentials carried in a server's URL or request headers are redacted</li>\n<li>Improved <code>/fork</code> to keep the original conversation's prompt cache in the new background session: its worktree briefing now arrives as a message instead of a system-prompt change</li>\n<li>Improved emoji autocomplete to accept the remaining GitHub/Slack shortcode aliases (<code>:satisfied:</code>, <code>:telephone:</code>, <code>:collision:</code>, …)</li>\n<li>Changed <code>--effort</code> to lift a new model's default-effort hold for that session only rather than permanently; an effort picked on claude.ai for a Remote Control session now applies during the hold</li>\n<li>Changed a <code>policyHelper</code> in MDM or <code>managed-settings.json</code> shadowed at launch by cached server-managed settings to run (or exit) as soon as the fetch reports them removed, not at the next launch</li>\n<li>Changed <code>managedSourcesBehavior: \"merge\"</code> to take <code>sandbox.credentials.awsPairs</code> and <code>sandbox.ripgrep</code> whole from the highest managed source that sets them instead of combining the sources' values</li>\n<li>Changed gateway model discovery (<code>CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1</code>) to run even when <code>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC</code> is set, since it only queries your gateway</li>\n<li>Changed <code>claude --resume &lt;session-id&gt; --bg</code> to continue that session under its own ID when nothing is running it, instead of silently starting a copy; a copy is now announced</li>\n<li>Changed <code>/btw</code> history browsing from <code>←</code>/<code>→</code> to <code>Shift+←</code>/<code>Shift+→</code> (or <code>[</code>/<code>]</code>), stepping through your recent side questions and back to the live answer</li>\n<li>Changed <code>defaultMode: \"bypassPermissions\"</code> in <code>.claude/settings.json</code> or <code>.claude/settings.local.json</code> to be ignored, like <code>\"auto\"</code>; set it in user or managed settings, or pass <code>--permission-mode</code></li>\n<li>Changed <code>fable</code> and <code>best</code> in Claude apps gateway sessions to keep resolving to Fable 5 for now, since gateways not yet configured for Fable 5.1 reject it; pick Fable 5.1 in <code>/model</code> to use it</li>\n<li>Changed <code>--add-dir</code>, <code>/add-dir</code>, and <code>additionalDirectories</code> to refuse network paths (UNC shares, <code>/net/&lt;host&gt;</code> automounts) with a message before touching them; on Windows use a mapped drive letter</li>\n<li>Changed Claude apps gateway sign-in and token refresh requests to verify the gateway's pinned TLS certificate, as the managed settings fetch already does</li>\n<li>Changed Cowork and claude.ai cloud sessions: reading an artifact that isn't yours now always asks you first, even in auto mode</li>\n<li>Removed the Ctrl+E command explanation on Bash and PowerShell permission prompts</li>\n<li>[VSCode] Added collapsible ACCOUNT &amp; USAGE and SESSION MANAGER section headers to the session list panel, with the account email, the usage meter, and a View details link opening the usage dialog</li>\n<li>[VSCode] Added a model pill to the input footer that shows the current model and opens the model picker, with an Effort row and a \"More models\" page</li>\n<li>[VSCode] Added a collapse toggle to the Ungrouped section of the session list</li>\n<li>[VSCode] Added output style selection to the command menu, including custom styles</li>\n<li>[VSCode] Fixed third-party provider deployments (Bedrock, Vertex, and others) still showing claude.ai-only features (remote sessions, dictation, usage) and calling claude.ai with a leftover login</li>\n<li>[VSCode] Fixed the session list panel's usage meter staying blank after the panel loads; it now shows the last known usage immediately</li>\n<li>[VSCode] Fixed the \"Enable Remote Control for all sessions\" toggle so turning it on or off applies to sessions that are already open, not only to new ones</li>\n<li>[VSCode] Fixed screen reader announcements: a control character before a fence or heading no longer drops visible lines from speech, and bold markers spanning a heading are no longer mis-paired</li>\n<li>[VSCode] Changed the action menu to list slash commands in a filterable \"Slash commands\" dialog instead of inline; picking one runs it; the MCP servers dialog gained the same filter box</li>\n<li>[VSCode] Changed \"Delete session\" to \"Archive session\": archived sessions move to a collapsible \"Archived sessions\" group at the bottom of the list with an Unarchive action</li>\n</ul>",
+    "source": "Claude Code Releases",
+    "channel": "RSS",
+    "published_at": "2026-09-01T17:53:52+00:00",
+    "intro_score": 4,
+    "verification_score": 3,
+    "final_score": 3.4,
+    "summary_ja": "Claude Fable 5.1モデルの追加や時間表示形式の設定が可能になったアップデート。",
+    "title_ja": "Claude Code v2.1.257で新モデル追加と設定拡充",
+    "tags": [
+      "Claude Code",
+      "モデル比較",
+      "コスト削減"
+    ],
+    "reader_question": "新しいFable 5.1モデルのコストと性能のバランスはどうか？",
+    "test_idea": "新モデルをデフォルトに設定し、既存のタスクを実行してトークン単価と応答速度を計測する。",
+    "metrics": [
+      "APIコスト",
+      "応答速度",
+      "コンテキスト長"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "新モデルの追加と価格設定が含まれており、実務でのコスト比較検証がしやすいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "8cc762e24b8ccc1c66279a4a2ed14e594d39ba4321d6fc0b381c10b168c457a5",
+    "title": "v1.3.0",
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
+    "summary": "<h2>1.3.0 (2026-09-01)</h2>\n<p>Full Changelog: <a href=\"https://github.com/anthropics/anthropic-sdk-python/compare/v1.2.0...v1.3.0\">v1.2.0...v1.3.0</a></p>\n<h3>Features</h3>\n<ul>\n<li><strong>api:</strong> beta user profiles: add external_user_onboarded_at, remove relationship in favor of access_type (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/74080c35d6e4f3e5e7fd47454ecce2350cbfdd2b\">74080c3</a>)</li>\n<li><strong>api:</strong> manual updates (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/1dc3ce0709a9bca146b045dfb0787971e747b1f5\">1dc3ce0</a>)</li>\n<li><strong>api:</strong> organization compliance settings, user-profile order_by, memory-store and toolset schema updates (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/429e719f84bd78db51c9fd0442ccb0ca63e614ba\">429e719</a>)</li>\n</ul>\n<h3>Bug Fixes</h3>\n<ul>\n<li><strong>aws:</strong> resolve base_url from aws_region under skip_auth and with_options (<a href=\"https://github.com/anthropics/anthropic-sdk-python/issues/564\">#564</a>) (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/b6d1732cc89eb743b4d40e33c6cd3f7ecfb3d0ab\">b6d1732</a>)</li>\n<li><strong>batches:</strong> add results to GA raw/streaming response wrappers (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/cbf9715a461b4c5deec7a669b2b6e211faaf8827\">cbf9715</a>)</li>\n<li><strong>ci:</strong> don't hard-wrap detect-breaking-changes output (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/b5be779c110e68f6c884091b3524083733f3f8a9\">b5be779</a>)</li>\n<li><strong>client:</strong> derive multipart filename for file tuples passed without one (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/a9f3fb40abdd2f5842054a96e08afeee35fb932a\">a9f3fb4</a>)</li>\n<li><strong>types:</strong> remove unused wire aliases from header and path params (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/dc0a9ab4360c7fc28f7326c39876f18ad04d2c26\">dc0a9ab</a>)</li>\n</ul>\n<h3>Chores</h3>\n<ul>\n<li><strong>internal:</strong> drop the unused discriminator argument from PropertyInfo (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/3dae6fd196cb2fe658029e8eec60551dfa847949\">3dae6fd</a>)</li>\n<li><strong>internal:</strong> drop the unused distro dependency (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/a47d85f6a740e3a38610c5239ac8c2c7b12ead55\">a47d85f</a>)</li>\n</ul>\n<h3>Documentation</h3>\n<ul>\n<li><strong>changelog:</strong> detail the beta files/skills GA-shape change (<a href=\"https://github.com/anthropics/anthropic-sdk-python/issues/1900\">#1900</a>) (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/7c84e133570991589c90d888790d536ca943568d\">7c84e13</a>)</li>\n</ul>\n<h3>Refactors</h3>\n<ul>\n<li><strong>types:</strong> mark discriminated unions with UnionDiscriminator instead of PropertyInfo (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/17df0bf37c875598b49b2909c58aa48e17a1b25a\">17df0bf</a>)</li>\n<li><strong>types:</strong> use UnionDiscriminator for more discriminated unions (<a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/b44af2c625703ba1c0ed2e81871ac14dc572665e\">b44af2c</a>)</li>\n</ul>",
+    "source": "Anthropic SDK Python Releases",
+    "channel": "RSS",
+    "published_at": "2026-09-01T17:36:55+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "Anthropic Python SDKのマイナーアップデートでベータ機能やスキーマ更新を追加。",
+    "title_ja": "Python SDK v1.3.0の変更点",
+    "tags": [
+      "Python SDK",
+      "Anthropic",
+      "API開発"
+    ],
+    "reader_question": "既存コードへの影響や新機能の使い方は？",
+    "test_idea": "SDKをアップデートし、既存のスクリプトが問題なく動作するかテストする。",
+    "metrics": [
+      "エラー発生有無"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "単なるライブラリのアップデートであり、検証しても結果が自明なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "b775e711d3168eb3dd2e2255900455fae86149744dbdf1d85f570700c6cb4fe8",
+    "title": "AI Coding Agent Skills for Real Engineers",
+    "url": "https://github.com/mattpocock/skills",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49529329 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T22:48:47+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "エンジニア向けにAIコーディングエージェントを使いこなすためのスキル集やノウハウ。",
+    "title_ja": "実務で役立つAIコーディングエージェントスキル集",
+    "tags": [
+      "AIコーディング",
+      "AIエージェント",
+      "作業効率化"
+    ],
+    "reader_question": "紹介されているスキルを自分の開発フローにどう組込めるか？",
+    "test_idea": "リポジトリのスキルやプロンプトを実際の開発タスクに導入し、作業効率の変化を計測する。",
+    "metrics": [
+      "タスク完了時間",
+      "修正の手間"
+    ],
+    "estimated_time": "1日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "個人の開発環境で実際に試して効果を測定できるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "c425353296f895b239abf992c19c9959b387fce33ad73818ca089abcb194a031",
+    "title": "High Agency Is High Variance",
+    "url": "https://www.betonit.ai/p/high-agency-is-high-variance",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49528926 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T22:09:32+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "AIの自律性（High Agency）が高まることによる結果のバラつきやリスクについての議論。",
+    "title_ja": "高エージェンシー性と分散リスクについての考察",
+    "tags": [
+      "AIエージェント",
+      "社会論",
+      "考察"
+    ],
+    "reader_question": "エージェントの自律性を高めると何が問題になるか？",
+    "test_idea": "記事の主張を自身の経験と照らし合わせて検証する。",
+    "metrics": [
+      "なし"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・考察に近く、手を動かして検証するテーマではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "156c567ab5bbfe907ff311453092cd8bec042f1c30fffd7495a96122ee1663ae",
+    "title": "In-memory security gate for autonomous AI agent tools",
+    "url": "https://bartholomew.info",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49528570 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T21:36:07+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "自律エージェントの安全性を確保するためのインメモリ型セキュリティ機構の提案。",
+    "title_ja": "自律型AIエージェントツール向けインメモリセキュリティゲート",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ",
+      "注目OSS"
+    ],
+    "reader_question": "エージェントの危険な操作をどの程度ブロックできるか？",
+    "test_idea": "セキュリティゲートを導入し、意図的な不正コード実行や外部通信が防げるかをテストする。",
+    "metrics": [
+      "ブロック成功率",
+      "オーバーヘッド"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "セキュリティ上の懸念を自分でテストでき、実用的な工夫が試せるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "c604f9a489fd3bbd784e66bcf5a79647f6b65f5f7ef592660efcf8d6ac29d98b",
+    "title": "A docs page is a long and complex search query to find AI agents",
+    "url": "https://blog.val.town/aeo",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49528174 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T21:04:15+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "AIエージェントが効率的に情報を取得できるようドキュメント構成を最適化するアプローチ。",
+    "title_ja": "ドキュメントページをAIエージェント向け検索クエリにする手法",
+    "tags": [
+      "AIエージェント",
+      "AIワークフロー",
+      "ドキュメント"
+    ],
+    "reader_question": "エージェントの検索精度や理解度はどれくらい向上するか？",
+    "test_idea": "特定のドキュメント構造をエージェント向けに変更し、情報の取得速度や正確性を比較する。",
+    "metrics": [
+      "情報取得の正確性"
+    ],
+    "estimated_time": "1日",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "面白いアプローチだが、効果の測定基準や再現性にやや曖昧な点があるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "9c1e6cfa4022035ac4cac831d4a2b52e7b15dfae5ab221cc58e3ab6024236060",
+    "title": "Cutting an AI agent's network access mid-run, measured at 127 ms",
+    "url": "https://medium.com/data-science-collective/your-coding-agent-has-your-aws-keys-and-an-open-internet-connection-b4f3f7dfc15f",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49527914 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T20:41:25+00:00",
+    "intro_score": 4,
+    "verification_score": 5,
+    "final_score": 4.6,
+    "summary_ja": "コーディングエージェントがAWSキーやインターネットにアクセスする危険性を防ぐため、127msで通信を遮断する手法の検証。",
+    "title_ja": "AIエージェントのネットワーク接続を途中で遮断する検証",
+    "tags": [
+      "AIコーディング",
+      "セキュリティ",
+      "コスト削減"
+    ],
+    "reader_question": "エージェントの実行を止めずに安全にネットワークを遮断できるか？",
+    "test_idea": "ローカル環境でプロキシやファイアウォールを構築し、エージェントの通信遮断と動作継続をテストする。",
+    "metrics": [
+      "遮断レイテンシ",
+      "エージェントの挙動への影響"
+    ],
+    "estimated_time": "1日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "セキュリティリスクに対する具体的な対策であり、手元で容易に再現・検証できるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "c988f35990389c45a610989e9dd0cbb0c7e1cfd3250721226fef98406d8cfb26",
+    "title": "Dev-sandbox – One bash script to isolate AI coding agents with Podman",
+    "url": "https://github.com/kosmrljt/dev-sandbox",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49527526 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T20:16:11+00:00",
+    "intro_score": 5,
+    "verification_score": 5,
+    "final_score": 5.0,
+    "summary_ja": "1つのbashスクリプトでAIコーディングエージェントをPodman環境に安全に隔離するツール。",
+    "title_ja": "Podmanを用いたAIコーディングエージェントのサンドボックス化",
+    "tags": [
+      "AIコーディング",
+      "注目OSS",
+      "セキュリティ"
+    ],
+    "reader_question": "既存のワークフローを崩さずにエージェントをコンテナ隔離できるか？",
+    "test_idea": "スクリプトを実行してPodman環境を構築し、Claude Code等のエージェントを隔離して動作テストする。",
+    "metrics": [
+      "セットアップ所要時間",
+      "隔離の確実性"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "数コマンドで導入でき、セキュリティと安全なAI開発に直結するため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "0f39c3849836efe546cae335b7b9533d92c08c3f6d93932cf27ef405540d3955",
+    "title": "API Delta Manifest: Structured API Changelog for AI Agents and Devs",
+    "url": "https://github.com/hassan-jahan/api-delta-manifest",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49526318 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T18:52:03+00:00",
+    "intro_score": 4,
+    "verification_score": 3,
+    "final_score": 3.4,
+    "summary_ja": "AIエージェントや開発者がAPIの変更点を構造化データとして効率的に取得するためのマニフェスト仕様。",
+    "title_ja": "AIエージェント向け構造化API変更履歴「API Delta Manifest」",
+    "tags": [
+      "AIエージェント",
+      "API開発",
+      "注目OSS"
+    ],
+    "reader_question": "API変更のキャッチアップをエージェントがどれくらい効率化できるか？",
+    "test_idea": "マニフェストを導入し、エージェントにAPIの変更内容を正確に理解させられるか試す。",
+    "metrics": [
+      "変更追従のエラー率"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "有用な仕組みだが、対応するエコシステムがまだ限定的な可能性があるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "d17949554cd17fa48ace0fbcb7b2bcbfe2e5f8139fd0a3e2774d737f9ac685ab",
+    "title": "Gemini Agentic Video Understanding",
+    "url": "https://ai.google.dev/gemini-api/docs/video-understanding",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49526312 (points=3, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T18:51:25+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "Gemini APIを用いたエージェント型動画理解機能の実装ドキュメント。",
+    "title_ja": "Geminiの動画理解APIドキュメントと活用法",
+    "tags": [
+      "Gemini",
+      "動画理解",
+      "API開発"
+    ],
+    "reader_question": "APIを使って自分の動画をどこまでエージェントに分析させられるか？",
+    "test_idea": "サンプルコードを動かし、特定の動画を用いたタスク実行テストを行う。",
+    "metrics": [
+      "実装ステップ数",
+      "APIのレスポンス精度"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "公式ドキュメントの域を出ず、独自の検証価値を出すにはひと工夫が必要なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "bba21c1095c112b88f8885d80c7dbd78d8269ae77bf2faccd97f10e8570564d8",
+    "title": "GitSpawn: A Single Flaw Lets Untrusted Repos Run Code in Claude Code, and Others",
+    "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49525561 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T18:06:19+00:00",
+    "intro_score": 5,
+    "verification_score": 4,
+    "final_score": 4.4,
+    "summary_ja": "Gitリポジトリの不備を突いてClaude Code等で任意のコードが実行されてしまう脆弱性の解説。",
+    "title_ja": "信頼できないリポジトリからClaude Codeがハックされる脆弱性",
+    "tags": [
+      "Claude Code",
+      "セキュリティ",
+      "AIコーディング"
+    ],
+    "reader_question": "どのようなリポジトリを開くと危険なのか？対策は？",
+    "test_idea": "脆弱性を再現する安全なテストケースを作り、エージェントがどう反応するかを安全に確認する。",
+    "metrics": [
+      "脆弱性の再現有無"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "セキュリティインシデントに関する検証であり、開発者の注意喚起と対策検証に価値があるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "b59025925afbe5c2869c07f791d412dbfb596c7f361b341af40d808a95f46b23",
+    "title": "Adds X402 Payments Access for AI Agents with Coinbase",
+    "url": "https://massive.com/blog/x402-payments-for-ai-agents",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49525482 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T18:00:04+00:00",
+    "intro_score": 3,
+    "verification_score": 2,
+    "final_score": 2.4,
+    "summary_ja": "AIエージェントが自律的に支払いを行えるようにするCoinbase連携機能の紹介。",
+    "title_ja": "Coinbaseを活用したAIエージェント向け決済機能「X402」",
+    "tags": [
+      "AIエージェント",
+      "決済",
+      "新しいAIツール"
+    ],
+    "reader_question": "エージェントが自動で決済する仕組みをどこまで簡単に試せるか？",
+    "test_idea": "テストネット環境等でエージェントに決済プロセスを実行させてみる。",
+    "metrics": [
+      "決済成功率"
+    ],
+    "estimated_time": "1日",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "決済インフラや事前準備が必要で、手軽な検証が難しいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "62ee112dd9431415c804a210a32b0d219b4abffa7b49e470c82385fac8e079f4",
+    "title": "Show HN: Wasmer SDK – Local Sandboxes for AI Agents",
+    "url": "https://wasmer.io/posts/wasmer-local-sandboxes-for-ai-agents",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49525451 (points=4, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T17:58:49+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIエージェントのために安全なローカルサンドボックスを提供するWasmer SDKの紹介。",
+    "title_ja": "Wasmer SDK：AIエージェント向けローカルサンドボックス",
+    "tags": [
+      "AIエージェント",
+      "注目OSS",
+      "セキュリティ"
+    ],
+    "reader_question": "数行のコードで安全なサンドボックス環境を構築できるか？",
+    "test_idea": "Wasmer SDKをインストールし、エージェントのコード実行環境をサンドボックス内に閉じるテストを行う。",
+    "metrics": [
+      "導入ステップ数",
+      "実行オーバーヘッド"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "Hacker Newsで注目されており、ローカルで簡単に導入して試せるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "cba5402ab5beaa92a499cbf04b8d6a93b0f65bf974f053fbd8dcc0f441e07156",
+    "title": "Agentic Video in Gemini",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49525043 (points=4, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T17:25:26+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "GoogleによるGeminiの新しいエージェント型動画機能の公式ブログ。",
+    "title_ja": "Geminiの動画エージェント機能の発表",
+    "tags": [
+      "Gemini",
+      "動画理解",
+      "AIエージェント"
+    ],
+    "reader_question": "従来の動画認識と何が違うのか？",
+    "test_idea": "公式発表のデモ動画内容を確認する。",
+    "metrics": [
+      "なし"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "単なるニュースリリースであり、検証価値が低いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "3b0aff2ce9f0b7d6346ac7ec83a41144e8ce670a939dab5f01d65bcb11e5da20",
+    "title": "AI agents meant to replace Meta workers made \"large-scale, disruptive actions\"",
+    "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49524754 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T17:03:30+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "Metaが従業員をAIエージェントに置き換えようとして大規模な計画変更に至った件の報道。",
+    "title_ja": "MetaのAIエージェント導入計画と混乱の背景",
+    "tags": [
+      "AI業界",
+      "社会論",
+      "人事"
+    ],
+    "reader_question": "企業でのAI置き換えにはどのようなリスクがあるか？",
+    "test_idea": "記事内容を読み解き、背景を考察する。",
+    "metrics": [
+      "なし"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・組織論のニュースであり、自分で検証できるテーマではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
+    "item_id": "a13d9ec2146642b0e79006fa19a460fae0bd4dd782230cdfe7b991c39df2fa22",
+    "title": "Show HN: Supafork – Share and Fork Sessions Across Harnesses",
+    "url": "https://www.supafork.com",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49524608 (points=8, comments=5)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-01T16:54:02+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "異なるAIコーディング環境の間でセッションを共有したり分岐させたりできるツール。",
+    "title_ja": "Supafork：ハーネス間でセッションを共有・フォークするツール",
+    "tags": [
+      "AIコーディング",
+      "注目OSS",
+      "新しいAIツール"
+    ],
+    "reader_question": "異なるAIエージェント間で本当にセッションを移行できるのか？",
+    "test_idea": "Supaforkを導入し、あるエージェントの途中状態を別の環境に引き継いで作業を継続してみる。",
+    "metrics": [
+      "移行の成功率",
+      "手間の削減度"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "開発者のワークフローを変える可能性があり、手元ですぐに試せるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-01T23:48:56.401615+00:00"
+  },
+  {
     "item_id": "db5317cd15f2b285a4ae7ed14aae30438f2c59f274b4413bef22e94ba00f623f",
     "title": "Show HN: Orthogonal – One integration for agents to discover and pay for APIs",
     "url": "https://www.orthogonal.com/",
