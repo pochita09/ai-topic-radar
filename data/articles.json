@@ -1,5 +1,297 @@
 [
   {
+    "item_id": "0ebf2c3d8be14117cde037eeb75dcb21f70bd4e1c9a74bea86a3e8e0d33c912e",
+    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+    "url": "https://openai.com/index/atv-big-air-tour",
+    "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+    "source": "OpenAI News",
+    "channel": "RSS",
+    "published_at": "2026-09-02T12:00:00+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "ATV Big Air TourがChatGPTを活用し、マーケティングや在庫サイト構築の作業時間を大幅に短縮しました。",
+    "title_ja": "ChatGPTで業務を短縮した事例",
+    "tags": [
+      "ChatGPT",
+      "業務効率化",
+      "事例"
+    ],
+    "reader_question": "具体的にどのようなプロンプトや手順で作業を短縮したのか？",
+    "test_idea": "自社の特定の業務プロセスにChatGPTを適用し、作業時間の変化を計測する。",
+    "metrics": [
+      "作業時間"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "企業の導入事例であり、個人での再現性や具体的な手順が不足しているため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "f83e09d1df3f6f5e8a1bfe05329dc908a47fe96c35d80b5c874ff046e2c4aaa2",
+    "title": "Proactive cyber defense for governments and enterprises",
+    "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+    "summary": "",
+    "source": "Google DeepMind Blog",
+    "channel": "RSS",
+    "published_at": "2026-09-02T16:24:24+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "政府および企業向けのプロアクティブなサイバー防衛に関する DeepMind の発表。",
+    "title_ja": "政府・企業向けサイバー防衛",
+    "tags": [
+      "DeepMind",
+      "セキュリティ"
+    ],
+    "reader_question": "なし",
+    "test_idea": "なし",
+    "metrics": [],
+    "estimated_time": "なし",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "概要が記載されておらず、詳細な検証が困難なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "e9a6536852ee9e0ffe4f551303f64162800fcef92c70b6717991c6e199b164d0",
+    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+    "summary": "",
+    "source": "Google DeepMind Blog",
+    "channel": "RSS",
+    "published_at": "2026-09-02T16:18:31+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "Gemini 3.8 Flash および Flash Cyber の紹介。",
+    "title_ja": "Gemini 3.8 Flash発表",
+    "tags": [
+      "Gemini",
+      "モデル比較"
+    ],
+    "reader_question": "なし",
+    "test_idea": "なし",
+    "metrics": [],
+    "estimated_time": "なし",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "概要が記載されておらず、詳細な検証が困難なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "4ced32746c5cfad20de18bda49359475ec7f1d10aff743ede5fea08c2fc8a5f1",
+    "title": "v2.1.259",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+    "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>managedMcpServers</code> managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as <code>.mcp.json</code>); entries that name a command to run are skipped</li>\n<li>Added <code>--permission-prompts none</code> for unattended headless hosts: anything that would prompt is denied automatically while the active permission mode (including auto mode) keeps deciding</li>\n<li>Added recognition of <code>glab mr create/merge/close/reopen/note/update</code> so GitLab merge requests show as <code>MR !N</code> in the collapsed tool summary and refresh the footer MR badge</li>\n<li>Added <code>--json</code> to <code>claude plugin validate</code> for a machine-readable validation report</li>\n<li>Fixed concurrent sessions silently reverting each other's <code>~/.claude.json</code> changes — workspace trust no longer resets and MCP/project state is no longer lost when running many sessions at once</li>\n<li>Fixed a conversation whose thinking was rejected once being rejected again on every later turn</li>\n<li>Fixed Bash <code>Read()</code> deny rules not covering files given as option values (<code>--ignore-revs-file=.env</code>, <code>-f.env</code>, <code>@file</code>), <code>git diff</code>/<code>git grep</code> file operands, or <code>cd DIR &amp;&amp; cat FILE</code> compounds; <code>grep -r</code>/<code>cp -r</code> over a directory holding a denied file now asks</li>\n<li>Fixed the prompt cache being invalidated when the OAuth token refreshed in sessions with telemetry disabled</li>\n<li>Fixed fullscreen mode showing a blank conversation after a long turn with hundreds of tool calls</li>\n<li>Fixed auto mode running a turn on a model it doesn't support when a command or skill's frontmatter <code>model:</code> named one; the turn now keeps the session model</li>\n<li>Fixed <code>CLAUDE_CODE_MAX_CONTEXT_TOKENS</code> being ignored for Vertex-style model IDs (<code>@YYYYMMDD</code> suffix) of model versions Claude Code doesn't recognize</li>\n<li>Fixed the live output preview of a running shell command hiding its newest lines when an earlier line wrapped</li>\n<li>Fixed a background GitHub connection check that ran on every launch for claude.ai users; the result is now remembered across launches</li>\n<li>Fixed <code>--resume</code> failing (and <code>--continue</code> opening an empty conversation) when a saved session contains an attachment entry with no payload</li>\n<li>Fixed frontmatter <code>model:</code> on custom commands and skills being ignored in interactive sessions</li>\n<li>Fixed Artifact publishing failing once with an \"unexpected parameter <code>note</code>\" error in conversations continued from an older version</li>\n<li>Fixed managed <code>forceRemoteSettingsRefresh</code> being ignored at startup when a policy helper configured by MDM or the managed settings file had already run</li>\n<li>Fixed worktree isolation refusing hook-created worktrees on machines where <code>git rev-parse</code> fails with a message other than \"not a git repository\"</li>\n<li>Fixed OpenTelemetry metrics and events from cloud sessions missing the <code>user.email</code>, <code>organization.id</code>, and <code>user.account_uuid</code> attributes</li>\n<li>Fixed MCP servers that disconnect while their tools are being listed at startup showing as connected with no tools instead of reporting the error</li>\n<li>Fixed the file edit permission dialog sometimes showing a changed line cut short with no indication</li>\n<li>Fixed repository detection dropping a known repo identity after a transient git probe failure</li>\n<li>Fixed managed settings silently going unenforced when the managed-settings file, a drop-in, the MDM plist, or the HKLM value cannot be parsed: Claude Code now refuses to start and names the source</li>\n<li>Fixed Stop not actually stopping background agents and workflows in remote-control sessions: killed tasks now stay visible and re-stoppable until their processes exit</li>\n<li>Fixed resuming a workflow run while its previous stopped run was still exiting, which could run duplicate copies of its agents</li>\n<li>Fixed marketplace repo URLs on github.com with a trailing slash or dangling <code>?</code>/<code>#</code> producing an unusable <code>.git</code> clone URL</li>\n<li>Fixed blocking Stop hooks causing the turn after a block to lose the model's reasoning from that turn and, on some models, miss the prompt cache</li>\n<li>Fixed remote (claude.ai) sessions taking 60 seconds to start a turn after a browser-hosted MCP server's page had gone away</li>\n<li>Fixed worktree-isolated sessions refusing common Bash loops, xargs pipelines and launcher-wrapped commands that cannot reach the main checkout</li>\n<li>Improved terminal resize and first-render performance for long responses by reusing text measurements</li>\n<li>Improved <code>/workflows</code> agent detail: JSON outcomes are pretty-printed with syntax colors and real line breaks, and long outcomes fold behind an expand toggle</li>\n<li>Improved headless/SDK session start: the first turn begins up to 50 ms sooner when MCP servers finish connecting</li>\n<li>Improved <code>/install-github-app</code> to explain it is GitHub-only and point to the GitLab CI/CD docs when run inside a GitLab repository</li>\n<li>Improved nested background subagent results to be saved in the parent subagent's transcript, so resumed subagents keep them and shared transcripts show the delivery</li>\n<li>Changed <code>allowedMcpServers</code> to govern only servers users add: a literal <code>managed-mcp.json</code> server your allowlist used to filter out now loads on upgrade; use <code>deniedMcpServers</code> to keep it off</li>\n<li>[VSCode] Added an Active quick filter and a status filter menu (Needs input, Working, Completed) to the session list sidebar</li>\n<li>Fixed remote and scheduled sessions doing nothing after a connector-tool permission prompt was approved while the session was paused</li>\n</ul>",
+    "source": "Claude Code Releases",
+    "channel": "RSS",
+    "published_at": "2026-09-02T22:33:51+00:00",
+    "intro_score": 5,
+    "verification_score": 4,
+    "final_score": 4.4,
+    "summary_ja": "MCPサーバーの管理設定追加やヘッドレスホスト向けの権限プロンプトスキップ機能が実装されました。",
+    "title_ja": "Claude Code v2.1.259アップデート",
+    "tags": [
+      "Claude Code",
+      "AIコーディング",
+      "アップデート"
+    ],
+    "reader_question": "新機能のヘッドレスホスト向けオプションはどのように動作するか？",
+    "test_idea": "新しく追加されたオプションを実際に設定し、非対話環境での挙動を検証する。",
+    "metrics": [
+      "成功率",
+      "エラー発生回数"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "公式のリリースであり、新機能を個人の環境ですぐに検証できるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "80ca2f079ba7dd98ccdaf572ff5fbec6feaa0a11af36552323a598fac9174d1a",
+    "title": "\"AI Agents Are Now Emailing Me with Their Security Concerns\"",
+    "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49541714 (points=5, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-02T20:06:07+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "AIエージェントがセキュリティ上の懸念についてメールを送ってくる現象についての議論。",
+    "title_ja": "AIエージェントからのセキュリティ相談メール",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ"
+    ],
+    "reader_question": "どのような状況でAIエージェントが自発的にメールを送信するのか？",
+    "test_idea": "自身の開発環境でAIエージェントを稼働させ、同様の挙動が再現するか確認する。",
+    "metrics": [
+      "発生頻度"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "議論の紹介のみであり、再現性や具体的な検証方法が明確ではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "2b7939c78693f495b1599fb27a4ecda0f65d365fa15fb34b786be5e2f8e22031",
+    "title": "Z: Local-first search layer for humans and agents",
+    "url": "https://github.com/zvec-ai/zvec-grep",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49541572 (points=8, comments=2)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-02T19:56:26+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "人間およびAIエージェント向けのローカルファーストな検索レイヤー「Z」の紹介。",
+    "title_ja": "人間とエージェント向けローカル検索レイヤー",
+    "tags": [
+      "OSS",
+      "AIエージェント",
+      "検索"
+    ],
+    "reader_question": "既存の検索ツールと比較してどの程度高速で実用的か？",
+    "test_idea": "リポジトリをクローンしてローカル環境に導入し、エージェントからの検索性能をテストする。",
+    "metrics": [
+      "検索速度",
+      "導入の手間"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "GitHubの注目OSSであり、ローカル環境ですぐに試して比較検証できるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "2add258f2fc4544a39a54d81fd1efef2980764b3ce0c3ec991b291726aa2ad1b",
+    "title": "AI Agents and the Refactoring That Never Happens",
+    "url": "https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49541496 (points=40, comments=46)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-02T19:51:39+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "AIエージェントの導入によってリファクタリングがどのように変化するかについての考察。",
+    "title_ja": "AIエージェントと行われないリファクタリング",
+    "tags": [
+      "AIエージェント",
+      "プログラミング"
+    ],
+    "reader_question": "AIコーディング時に本当にリファクタリングが省略されがちなのか？",
+    "test_idea": "実際のコーディング作業におけるリファクタリングの頻度やコードの品質を記録する。",
+    "metrics": [
+      "リファクタリング回数"
+    ],
+    "estimated_time": "数日",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "個人の意見や議論を中心とした記事であり、客観的な検証が難しいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "836fa71f901e9bdcd49184dccffd005f821a4262628173d1c4ec2a4c7a676e18",
+    "title": "OWASP Top for Agentic Applications – The Benchmark for Agentic Security",
+    "url": "https://genai.owasp.org/2025/12/09/owasp-top-10-for-agentic-applications-the-benchmark-for-agentic-security-in-the-age-of-autonomous-ai/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49540177 (points=3, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-02T18:13:41+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "自律型AIアプリケーションのセキュリティベンチマークに関するOWASPのガイドライン。",
+    "title_ja": "エージェント型アプリ向けOWASP Top 10",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ"
+    ],
+    "reader_question": "エージェント特有の脆弱性をどのようにチェックすればよいか？",
+    "test_idea": "公開されている基準に沿って、作成したエージェントアプリの脆弱性を評価する。",
+    "metrics": [
+      "チェック項目クリア数"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "仕様やガイドラインの紹介であり、実験的な検証よりもドキュメント読書が中心になるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "18b41d0c3f527d2aa34ca8689130ec8f3e42a954dee7429aca459327ac6e8aad",
+    "title": "Anthropic launches AI agent blueprints for retailers ahead of holiday shopping",
+    "url": "https://www.reuters.com/business/retail-consumer/anthropic-launches-ai-agent-blueprints-retailers-ahead-holiday-shopping-season-2026-09-02/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49539611 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-02T17:34:12+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "ホリデーショッピングシーズンに向けて、Anthropicが小売業者向けAIエージェントの設計図を公開しました。",
+    "title_ja": "小売向けAIエージェント設計図の公開",
+    "tags": [
+      "Anthropic",
+      "AIエージェント"
+    ],
+    "reader_question": "公開された設計図を非エンジニアや個人でも利用できるか？",
+    "test_idea": "提供されている設計図の内容を確認し、自身のワークフローに応用可能か試す。",
+    "metrics": [
+      "導入難易度"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "特定の業界（小売業者）向けニュースであり、一般的な検証テーマとしては実利が分かりにくいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
+    "item_id": "f2e97d239e67b72121cc72750ba4a3c09dfb92862bcbb2a5c7f307522506f372",
+    "title": "Databricks used AI to save $1mi/year in AI spend",
+    "url": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49539305 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-02T17:10:56+00:00",
+    "intro_score": 4,
+    "verification_score": 3,
+    "final_score": 3.4,
+    "summary_ja": "DatabricksがAIエージェントの無駄なコストを1時間で年間1百万ドル削減した事例。",
+    "title_ja": "DatabricksのAIコスト削減手法",
+    "tags": [
+      "コスト削減",
+      "AIエージェント"
+    ],
+    "reader_question": "どのような無駄を特定して1時間で削減したのか？",
+    "test_idea": "自社のAI API呼び出しログやエージェントの挙動を分析し、無駄なコストが発生していないか確認する。",
+    "metrics": [
+      "コスト削減額",
+      "API呼び出し回数"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "コスト削減という強い実利があり、自社の環境でも同様の問題がないか検証できるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-02T23:52:33.268953+00:00"
+  },
+  {
     "item_id": "f242a0f12bdd40c13db9b6e0662a571796451dcbc8ceb78abc4801d3a5478c7a",
     "title": "Why Adding More AI Agents Makes Your Team Slower",
     "url": "https://blog.mempko.com/misconception-about-agentic-scaling/",
