@@ -1,5 +1,157 @@
 [
   {
+    "item_id": "8f93c4f9a7eb1c2ab4bb8dffd79e545cdd2e6e36d7b3e175778bc8c4201a5889",
+    "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+    "url": "https://github.com/okf-memory/okf-agent-memory",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49581240 (points=5, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-05T22:15:52+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIコーディングエージェント向けにGitをネイティブ活用した永続メモリシステムを提供するOSS。",
+    "title_ja": "GitベースのAIエージェント向け永続メモリツール",
+    "tags": [
+      "AIエージェント",
+      "OSS",
+      "Git",
+      "AIコーディング"
+    ],
+    "reader_question": "通常のコンテキスト管理や既存のメモリ機能と比べて、どう開発効率が変わるのか？",
+    "test_idea": "実際のコーディング作業に導入し、エージェントの記憶維持力やコード生成の精度を検証する。",
+    "metrics": [
+      "記憶保持率",
+      "コンテキスト維持コスト",
+      "セットアップの手間"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIコーディングのワークフロー改善に直結し、自分で検証する価値が高いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-05T23:34:26.181136+00:00"
+  },
+  {
+    "item_id": "75563fcbe065d43b82698fac35f30a52a849ce6d386a9cebd0e905198cb32a37",
+    "title": "How do you filter noise from signal in programming resources?",
+    "url": "https://news.ycombinator.com/item?id=49580521",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49580521 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-05T20:50:51+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "プログラミング学習や情報収集において、大量のノイズからシグナルをどう見分けるかについての議論。",
+    "title_ja": "プログラミングリソースのノイズフィルタリング手法",
+    "tags": [
+      "プログラミング",
+      "情報収集"
+    ],
+    "reader_question": "",
+    "test_idea": "",
+    "metrics": [],
+    "estimated_time": "",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "AIツールや自動化のテーマに直接関連しないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-05T23:34:26.181136+00:00"
+  },
+  {
+    "item_id": "be39b38212617c7b977289c32954ee8a4cd93ec19995ccd2eb0ff1d8da0afb63",
+    "title": "Show HN: ChatPanel Now Available on Firefox",
+    "url": "https://chatpanel.net/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49579835 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-05T19:30:01+00:00",
+    "intro_score": 3,
+    "verification_score": 2,
+    "final_score": 2.4,
+    "summary_ja": "Firefoxブラウザで利用できるサイドパネル型のチャットツール。Show HNとして公開。",
+    "title_ja": "Firefox対応のチャットパネル拡張機能",
+    "tags": [
+      "ブラウザ拡張",
+      "AIツール",
+      "Firefox"
+    ],
+    "reader_question": "既存のブラウザ拡張機能と比べてどのような利便性があるのか？",
+    "test_idea": "Firefoxにインストールし、普段のワークフローでの使い勝手を試す。",
+    "metrics": [
+      "応答速度",
+      "UIの快適さ"
+    ],
+    "estimated_time": "30分",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "新ツールだが、検証しても結果や独自性がやや自明なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-05T23:34:26.181136+00:00"
+  },
+  {
+    "item_id": "e1c955a97676679cd0bdde4c65b691248d4e272376243acc6b4bdc03ef903339",
+    "title": "Praesidias – pre-execution authorization for AI agents",
+    "url": "https://github.com/sowainat/praesidias-pabe01",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49577893 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-05T16:07:29+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIエージェントの自律実行前にアクションを認可するためのセキュリティツール。",
+    "title_ja": "AIエージェントの実行前承認システム",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ",
+      "OSS"
+    ],
+    "reader_question": "エージェントの暴走や意図せぬ操作をどの程度確実に防げるのか？",
+    "test_idea": "サンプル環境でエージェントを動かし、事前承認フローが正しく機能するか検証する。",
+    "metrics": [
+      "ブロック成功率",
+      "導入の複雑さ"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントの安全性と実用的なワークフロー制御に関する検証テーマとして優れているため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-05T23:34:26.181136+00:00"
+  },
+  {
+    "item_id": "d240dab5744289309c5df42cac827691052cc0ab555b0b9cf54d229b2b7a1477",
+    "title": "Defending Against AI Agents with Social Engineering",
+    "url": "https://blog.thinkst.com/2026/09/getting-agents-to-tell-on-themselves.html",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49577108 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-05T14:52:18+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "ソーシャルエンジニアリングを用いるAIエージェントに対する防御手法や脆弱性についての解説記事。",
+    "title_ja": "ソーシャルエンジニアリング型AIエージェントへの防御策",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ"
+    ],
+    "reader_question": "具体的にどのようなプロンプトや仕掛けでエージェントが情報を漏らすのか？",
+    "test_idea": "記事で言及されているシナリオを自前のエージェント環境で再現し、脆弱性をテストする。",
+    "metrics": [
+      "情報漏洩リスク",
+      "プロンプトの有効性"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "実践的なツール検証というよりはセキュリティ考察の色彩が強いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-05T23:34:26.181136+00:00"
+  },
+  {
     "item_id": "e057d1e28717213ab62e0c8fa61e7f17ac17af7cb5143e5ab0598f60dd0a6b6f",
     "title": "Paygate – a non-custodial paywall AI agents pay each other with (USDC on Base)",
     "url": "https://tollbooth402--691ab20aa91411f1867b1607ee4eb77e.web.val.run",
