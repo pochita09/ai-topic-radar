@@ -1,5 +1,33 @@
 [
   {
+    "item_id": "a3fcdf0e7ee505d48aae0609b32246b4551c385680f7ddb7f634df2b421820d9",
+    "title": "AI coding agents forget the codebase between sessions",
+    "url": "https://github.com/thecolourfoundation/rune",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49586035 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T12:45:13+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "AIコーディングエージェントがセッション間でコードベースの状態を忘れてしまう問題についてのHacker Newsの議論。",
+    "title_ja": "セッション間でコードベースを忘れるAIコーディングエージェントの課題",
+    "tags": [
+      "AIコーディング",
+      "AIエージェント",
+      "Hacker News"
+    ],
+    "reader_question": "",
+    "test_idea": "",
+    "metrics": [],
+    "estimated_time": "",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "議論の紹介のみで実際に試す方法や具体的な検証データがないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T14:58:50.018510+00:00"
+  },
+  {
     "item_id": "2de4e16cef292da53d5c49789ad1b091b2bfe16d06d4f8e84fffd34c539fc79c",
     "title": "v2.1.263",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
