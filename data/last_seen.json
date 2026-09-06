@@ -1,9 +1,9 @@
 {
-  "https://openai.com/news/rss.xml": "2026-09-03T13:15:00+00:00",
+  "https://openai.com/news/rss.xml": "2026-09-06T09:00:00+00:00",
   "https://deepmind.google/blog/rss.xml": "2026-09-03T15:02:08+00:00",
   "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml": "2026-09-01T00:00:00+00:00",
   "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml": "2026-09-04T00:00:00+00:00",
   "https://github.com/anthropics/claude-code/releases.atom": "2026-09-06T02:54:20+00:00",
   "https://github.com/anthropics/anthropic-sdk-python/releases.atom": "2026-09-04T22:20:20+00:00",
-  "hn-search://ai-agent": "2026-09-06T12:45:13+00:00"
+  "hn-search://ai-agent": "2026-09-06T20:45:36+00:00"
 }

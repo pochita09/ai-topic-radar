@@ -1,5 +1,215 @@
 [
   {
+    "item_id": "6e44f21deac8780e9767fd5f0bef3fab22d45e5352d8f82887d178d640eabb5d",
+    "title": "An Alien Mind",
+    "url": "https://openai.com/index/an-alien-mind",
+    "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+    "source": "OpenAI News",
+    "channel": "RSS",
+    "published_at": "2026-09-06T09:00:00+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "高度化するAIに対する安全性確保や国際的な調整の重要性について、OpenAI関係者が語っています。",
+    "title_ja": "AIの安全性と国際協調に関する考察",
+    "tags": [
+      "AI安全性",
+      "OpenAI",
+      "社会論"
+    ],
+    "reader_question": "具体的な安全性の担保手法はどうなっているのか？",
+    "test_idea": "なし",
+    "metrics": [],
+    "estimated_time": "-",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・政治論に該当し検証テーマにならないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
+    "item_id": "615cb225113f5a221fd9dcc885449ee6ca6a49400365f179dcef129451573a35",
+    "title": "Research acceleration: The view inside OpenAI",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "source": "OpenAI News",
+    "channel": "RSS",
+    "published_at": "2026-09-06T08:00:00+00:00",
+    "intro_score": 4,
+    "verification_score": 3,
+    "final_score": 3.4,
+    "summary_ja": "OpenAIの内部で、コーディングエージェントが研究をどのように加速させているかの初期データや実験速度のデータを公開しています。",
+    "title_ja": "OpenAI内部での研究開発におけるAIエージェント活用",
+    "tags": [
+      "AIエージェント",
+      "AI開発",
+      "OpenAI"
+    ],
+    "reader_question": "OpenAI内部で使われているエージェントの具体的なワークフローや生産性向上の実態はどうなっているのか？",
+    "test_idea": "公開されている指標を参考に自社の開発プロセスにAIエージェントを組み込み、タスク完了までの速度を比較する。",
+    "metrics": [
+      "実験速度",
+      "タスク複雑性"
+    ],
+    "estimated_time": "3日",
+    "estimated_cost_level": "medium",
+    "decision": "HOLD",
+    "reason": "公式の知見であるが、内部データのみで直接手元でそのまま再現できるツールや手順が明記されていないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
+    "item_id": "36b890b53a03787eb715ac314c5b8312020b0d8103d9cfa1c0610c524a690d49",
+    "title": "A public noticeboard for AI agents",
+    "url": "https://agents.scrygl.dev/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49590746 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T20:45:36+00:00",
+    "intro_score": 1,
+    "verification_score": 1,
+    "final_score": 1.0,
+    "summary_ja": "AIエージェントがやり取りするための公開掲示板サービスに関するHacker Newsでの議論です。",
+    "title_ja": "AIエージェント向けパブリック掲示板",
+    "tags": [
+      "AIエージェント",
+      "OSS"
+    ],
+    "reader_question": "AIエージェント同士の掲示板はどのように活用できるのか？",
+    "test_idea": "実際にエージェントを接続して書き込みと読み取りをテストする。",
+    "metrics": [
+      "成功率"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "HNでの注目度が低く、実利や検証の価値が小さいため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
+    "item_id": "435f26ea0e9942b72f8123337e1385b6f185397c317bc72cd7d0d85455c69ff2",
+    "title": "A directory of AI agents, MCP servers and agent skills, cross-linked",
+    "url": "https://aiagentslisting.com",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49589758 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T19:10:13+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "AIエージェントやMCPサーバー、エージェントスキルをクロスリンクしたディレクトリサイトです。",
+    "title_ja": "AIエージェント・MCPサーバーのディレクトリサイト",
+    "tags": [
+      "AIエージェント",
+      "MCP",
+      "ツール"
+    ],
+    "reader_question": "掲載されているツールの中でどれが実用的なのか？",
+    "test_idea": "リストから有用そうなMCPサーバーをいくつか選定し、手元の環境に導入して動作確認する。",
+    "metrics": [
+      "導入時間"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "単なるリンク集であり、個別のツール検証を行わない限り検証価値が低いため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
+    "item_id": "6522455094bb80049bf2185124b5ace42444f896fe7116d544fe578c30fb45f0",
+    "title": "AI agents aren't safe from prompt injection, and spreadsheets prove it",
+    "url": "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49587979 (points=3, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T16:17:36+00:00",
+    "intro_score": 3,
+    "verification_score": 4,
+    "final_score": 3.6,
+    "summary_ja": "スプレッドシートを介してAIエージェントがプロンプトインジェクションに対して脆弱である事を示した事例です。",
+    "title_ja": "スプレッドシートを通じたAIエージェントのプロンプトインジェクション検証",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ",
+      "プロンプトインジェクション"
+    ],
+    "reader_question": "スプレッドシート経由のインジェクションはどのような条件で発生し、どう防げるのか？",
+    "test_idea": "スプレッドシートに特定の文字列を仕込み、連携したAIエージェントが不正な動作をするか検証する。",
+    "metrics": [
+      "攻撃成功率"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "身近なツールを使った脆弱性の検証が可能で、実用的なセキュリティ対策の知見が得られるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
+    "item_id": "e71402d17fb09824c44251cf8ca0d2944b4c739b79c7f4cefc0509deb6540585",
+    "title": "Mdmanager.ai – Manage your Claude.md and AGENTS.md across machines and runtimes",
+    "url": "https://github.com/manuelschipper/mdmanager",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49587839 (points=3, comments=5)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T16:03:28+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "異なるマシンやランタイムの間でClaude.mdやAGENTS.mdを管理するためのツールです。",
+    "title_ja": "複数マシン間でClaude.mdやAGENTS.mdを管理するツール「mdmanager.ai」",
+    "tags": [
+      "Claude",
+      "AIコーディング",
+      "OSS"
+    ],
+    "reader_question": "複数環境での設定ファイル同期をどれくらい効率化できるのか？",
+    "test_idea": "複数端末に導入し、設定ファイルの同期とエージェントの挙動が一貫するか試す。",
+    "metrics": [
+      "セットアップ時間",
+      "同期の手間"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "開発環境の効率化に直結し、数コマンドで導入してすぐに個人環境で検証できるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
+    "item_id": "f02df6084a0ae41f3443ffaf0d43ff42d7b8a0aa6b0ac33470e58669dacc4113",
+    "title": "I track LLM API prices daily, found a 33x cost gap in the same model",
+    "url": "https://news.ycombinator.com/item?id=49586810",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49586810 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T14:23:53+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "LLMのAPI価格を毎日追跡し、同一モデルであっても提供元により大きなコスト差があることを発見した話題です。",
+    "title_ja": "LLM API価格のデイリー追跡と同一モデルでの価格差検証",
+    "tags": [
+      "LLM",
+      "コスト削減",
+      "API"
+    ],
+    "reader_question": "どのプロバイダーを経由すればコストを最も削減できるのか？",
+    "test_idea": "主要なプロバイダーのAPI価格とレイテンシを比較し、自社のワークフローでコスト差を試算する。",
+    "metrics": [
+      "コスト削減率",
+      "APIレスポンス速度"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "コスト削減という明確な実利があり、手元のAPI呼び出し先を変更するだけで容易に検証できるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T23:30:18.562574+00:00"
+  },
+  {
     "item_id": "a3fcdf0e7ee505d48aae0609b32246b4551c385680f7ddb7f634df2b421820d9",
     "title": "AI coding agents forget the codebase between sessions",
     "url": "https://github.com/thecolourfoundation/rune",
