@@ -1,5 +1,94 @@
 [
   {
+    "item_id": "2de4e16cef292da53d5c49789ad1b091b2bfe16d06d4f8e84fffd34c539fc79c",
+    "title": "v2.1.263",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+    "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
+    "source": "Claude Code Releases",
+    "channel": "RSS",
+    "published_at": "2026-09-06T02:54:20+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "バグ修正と信頼性の改善が含まれるマイナーアップデートです。",
+    "title_ja": "Claude Code v2.1.263リリース",
+    "tags": [
+      "Claude Code",
+      "アップデート"
+    ],
+    "reader_question": "どの具体的なバグが修正されたのか",
+    "test_idea": "最新バージョンへのアップデートと動作確認",
+    "metrics": [
+      "エラー発生率"
+    ],
+    "estimated_time": "5分",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "細かすぎるバグ修正のため検証価値がない",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T08:23:23.049578+00:00"
+  },
+  {
+    "item_id": "c27816e9ae978e2938ee5d200196801ae51b1b008fccdc6e707bb20b50f2e6bc",
+    "title": "interpretation to AI agents",
+    "url": "https://ag3497120.github.io/call-me-vera/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49583685 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T05:47:22+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "AIエージェントの動作や解釈についての議論や解説です。",
+    "title_ja": "AIエージェントの解釈に関する考察",
+    "tags": [
+      "AIエージェント"
+    ],
+    "reader_question": "具体的にどのような仕組みや実用性があるのか",
+    "test_idea": "記載されている内容の概念検証",
+    "metrics": [
+      "特になし"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文や解説の紹介に近く、実際に試す具体的な方法や手順が不明なため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T08:23:23.049578+00:00"
+  },
+  {
+    "item_id": "89eacadd0b14a6f65fe019ba42b31a49141e57a05fc61d1183f6e375c84ed38c",
+    "title": "Routed: Local, zero-token hybrid router for AI agent skills (<20ms)",
+    "url": "https://github.com/bshea-1/Routed",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49582923 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-06T03:04:52+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "20ms未満で動作する、トークン消費ゼロのローカルAIエージェントスキル用ルーターです。",
+    "title_ja": "ローカル動作のAIエージェント用ハイブリッドルーター「Routed」",
+    "tags": [
+      "AIエージェント",
+      "OSS",
+      "ローカル"
+    ],
+    "reader_question": "実際にどの程度高速にルーティングされ、精度は実用に耐えるか？",
+    "test_idea": "手元の環境にクローンしてローカルでビルドし、処理速度とルーティング精度を計測する。",
+    "metrics": [
+      "処理速度(ms)",
+      "ルーティング精度",
+      "トークン消費量"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "ゼロトークン・高速動作を謳う注目OSSであり、ローカル環境で簡単に検証できるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-06T08:23:23.049578+00:00"
+  },
+  {
     "item_id": "8f93c4f9a7eb1c2ab4bb8dffd79e545cdd2e6e36d7b3e175778bc8c4201a5889",
     "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
     "url": "https://github.com/okf-memory/okf-agent-memory",
