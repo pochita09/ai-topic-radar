@@ -1,5 +1,101 @@
 [
   {
+    "item_id": "a89585d524fafd68fbe9d2912e4bc9d4fbab61e3b10e3164987ccb8ed9da89bf",
+    "title": "Show HN: Archprint, infer architecture lint rules from your repo's import graph",
+    "url": "https://github.com/Tommkruix/archprint",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49605147 (points=3, comments=2)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-08T02:41:41+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "リポジトリの依存関係から静的にルールを推論するツールです。",
+    "title_ja": "インポートグラフからアーキテクチャ規約を自動生成するArchprint",
+    "tags": [
+      "Archprint",
+      "静的解析",
+      "アーキテクチャ",
+      "OSS"
+    ],
+    "reader_question": "実際のコードベースでどこまで実用的なルールが推論できるのか？",
+    "test_idea": "既存のプロジェクトに適用し、生成されたルールを検証する",
+    "metrics": [
+      "生成ルールの精度",
+      "誤検知の数"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "Hacker Newsでのポイントが低く注目度が未知数のためHOLD",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-08T08:37:50.794546+00:00"
+  },
+  {
+    "item_id": "76646147485c435ab88aea71f24732fc1fe96df2d9dd713ced9ee4ad2217aa9f",
+    "title": "Secure temporary file sharing for AI agents and humans",
+    "url": "https://github.com/aispace-sh/aispace-client",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49604280 (points=12, comments=3)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-07T23:59:58+00:00",
+    "intro_score": 3,
+    "verification_score": 4,
+    "final_score": 3.6,
+    "summary_ja": "AIエージェントと人間が安全にファイルをやり取りするためのクライアントツールです。",
+    "title_ja": "AIエージェントと人間向けの安全な一時ファイル共有ツール",
+    "tags": [
+      "AIエージェント",
+      "ファイル共有",
+      "セキュリティ",
+      "OSS"
+    ],
+    "reader_question": "AIエージェントとのファイル共有における実用性とセキュリティ上のメリットは何か？",
+    "test_idea": "ローカル環境でエージェントと連携させ、ファイル共有のワークフローを試す",
+    "metrics": [
+      "セットアップの容易さ",
+      "転送速度"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "検証価値はあるが注目度が低いためHOLD",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-08T08:37:50.794546+00:00"
+  },
+  {
+    "item_id": "a5d08e7b0c11786a04dc28bf4647098d801c477d7d0caa149b62dcf8762f7c8c",
+    "title": "Quire – humans and AI agents editing local Markdown together",
+    "url": "https://github.com/heetdalsania/quire",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49603593 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-07T22:17:21+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "ローカルのMarkdownファイルを人間とAIエージェントが同時に編集できるツールです。",
+    "title_ja": "人間とAIエージェントがローカルMarkdownを共同編集するQuire",
+    "tags": [
+      "Quire",
+      "AIエージェント",
+      "Markdown",
+      "共同編集"
+    ],
+    "reader_question": "エージェントと人間の同時編集でコンフリクトは起きないか？",
+    "test_idea": "同一のMarkdownファイルを人間とAIエージェントに同時に編集させて挙動を確かめる",
+    "metrics": [
+      "編集の競合発生率",
+      "応答速度"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントのローカル作業効率化に直結するため検証価値が高い",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-08T08:37:50.794546+00:00"
+  },
+  {
     "item_id": "5559c94962896f6400f340bf54158cdf67b34af9419c4ff84fcfbe0ab65f160a",
     "title": "Show HN: Relay – an update after three years on anonymous team check-ins",
     "url": "https://www.openrelay.app/",
