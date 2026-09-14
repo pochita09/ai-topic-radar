@@ -1,5 +1,164 @@
 [
   {
+    "item_id": "aa68032a4b5ebb7687da1f985ef66d8d3a97108c44f20d47cd755eb5bd0e2483",
+    "title": "Show HN: Crypto portfolio risk and scenario analysis with AI agents on top",
+    "url": "https://sentralis.io/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49694118 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-14T09:28:30+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "AIエージェントを活用して仮想通貨ポートフォリオのリスクやシナリオ分析を行うサービス。",
+    "title_ja": "AIエージェントによる仮想通貨のポートフォリオ管理・リスク分析ツール",
+    "tags": [
+      "AIエージェント",
+      "仮想通貨",
+      "リスク分析"
+    ],
+    "reader_question": "既存のポートフォリオ管理ツールと比較してどのような優位性があるか？",
+    "test_idea": "実際にツールを試して、AIによるリスク分析の精度や出力の質を確認する。",
+    "metrics": [
+      "分析精度",
+      "出力速度",
+      "設定の簡便さ"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "実際に検証して得られる実利や再現性のイメージがやや湧きにくいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-14T09:35:57.788333+00:00"
+  },
+  {
+    "item_id": "d4c2c5633f036713b0f42c9ec183d408136748665f02cff6b9193a64944b1e71",
+    "title": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
+    "url": "https://github.com/oleg-vdv/kepil",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49692366 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-14T05:28:36+00:00",
+    "intro_score": 3,
+    "verification_score": 4,
+    "final_score": 3.6,
+    "summary_ja": "AIエージェントの動作ログや権限管理を記録・検証するためのGitHubリポジトリ。",
+    "title_ja": "AIエージェント向けのパスポート・改ざん防止ジャーナル管理ツール「Kepil」",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ",
+      "ログ管理",
+      "OSS"
+    ],
+    "reader_question": "AIエージェントの動作追跡や改ざん防止にどのように組み込めるか？",
+    "test_idea": "ローカル環境でリポジトリをクローンし、サンプルエージェントに組み込んで動作ログの記録を検証する。",
+    "metrics": [
+      "導入ステップ数",
+      "動作負荷",
+      "ログの視認性"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントのガバナンスとセキュリティ向上に直結する興味深いOSSであるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-14T09:35:57.788333+00:00"
+  },
+  {
+    "item_id": "15a14dcb2fce14b19db101d949aa66627594f64a69cd04479422d804a68ee104",
+    "title": "Show HN: I made a tiny MoE/Engram viz tool",
+    "url": "https://sw-ml-study.github.io/moe-microscope/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49690947 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-14T01:59:28+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "MoE（Mixture of Experts）などの内部動作を視覚的に確認できる小さなツール。",
+    "title_ja": "Mixture of Experts / Engramの可視化ツール",
+    "tags": [
+      "MoE",
+      "モデル比較",
+      "可視化",
+      "OSS"
+    ],
+    "reader_question": "AIモデルの内部構造の理解にどの程度役立つか？",
+    "test_idea": "ブラウザ上でツールを動かし、表示されるデータの見やすさや挙動を確認する。",
+    "metrics": [
+      "操作の快適さ",
+      "情報の分かりやすさ"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "可視化の面白さはあるが、日常的な開発ワークフローへの実用性がやや見えにくいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-14T09:35:57.788333+00:00"
+  },
+  {
+    "item_id": "d98026c35ed7e08bc6770649a0cc454b03ce722c8abfd85f0565a944f1e0c083",
+    "title": "I think Effect-TS is a strong fit for AI agent development",
+    "url": "https://effect.website/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49689884 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-13T23:33:34+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "複雑なエージェント開発にTypeScriptの型安全・堅牢なライブラリ「Effect-TS」が適しているという議論。",
+    "title_ja": "AIエージェント開発におけるEffect-TSの活用",
+    "tags": [
+      "AIエージェント",
+      "TypeScript",
+      "開発手法"
+    ],
+    "reader_question": "通常のTypeScriptコードと比較してエージェント開発がどう楽になるか？",
+    "test_idea": "Effect-TSのドキュメントを参照し、簡単なAPI呼び出しやエラーハンドリングのエージェント処理を実装してみる。",
+    "metrics": [
+      "コード量",
+      "エラー耐性",
+      "学習コスト"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "議論主体のトピックであり、実践的な検証コードのボリュームが推測しにくいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-14T09:35:57.788333+00:00"
+  },
+  {
+    "item_id": "c18bd86c77862710c6094c389cad8c1c14c70910305d76883400a581f6784bd5",
+    "title": "Ask HN: Multi-agent workflows in production; Where people using 1000s of agents?",
+    "url": "https://news.ycombinator.com/item?id=49689454",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49689454 (points=2, comments=4)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-13T22:37:42+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "数千ものAIエージェントを本番環境で実際に稼働させている事例についてのHacker Newsの議論。",
+    "title_ja": "本番環境でのマルチエージェント運用に関する議論（Ask HN）",
+    "tags": [
+      "AIエージェント",
+      "本番運用",
+      "アーキテクチャ"
+    ],
+    "reader_question": "他社がどのように大規模エージェントを運用しているか？",
+    "test_idea": "議論内のコメントを読み込み、有益な知見をまとめる。",
+    "metrics": [
+      "コメントの質と量"
+    ],
+    "estimated_time": "30分",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "検証可能なツールや具体的なコードがなく、議論の紹介に留まるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-14T09:35:57.788333+00:00"
+  },
+  {
     "item_id": "0a8826d36d3745ab2625149ae350abfff0631c3ed000a5119bfbf40a1568e684",
     "title": "v2.1.270",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
