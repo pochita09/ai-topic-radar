@@ -1,5 +1,33 @@
 [
   {
+    "item_id": "fbc795e782af4532022a2140cb33386d44c400f5dd0de1efd2fa901d45e33cae",
+    "title": "v2.1.272",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+    "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
+    "source": "Claude Code Releases",
+    "channel": "RSS",
+    "published_at": "2026-09-15T00:42:25+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "バグ修正と信頼性の改善が含まれるマイナーアップデートです。",
+    "title_ja": "Claude Code v2.1.272リリース",
+    "tags": [
+      "Claude Code",
+      "アップデート",
+      "バグ修正"
+    ],
+    "reader_question": "細かすぎるバグ修正のため検証する価値があるか？",
+    "test_idea": "特になし",
+    "metrics": [],
+    "estimated_time": "なし",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "細かすぎるバグ修正のため除外。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-15T09:13:11.132079+00:00"
+  },
+  {
     "item_id": "1dfe50b0c5bbf23e1c43949c70f9d9e5d1194b846be14fea70457bd8f64e4ebe",
     "title": "How Fyxer built an AI executive assistant people trust",
     "url": "https://openai.com/index/fyxer",
