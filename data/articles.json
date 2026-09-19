@@ -1,5 +1,97 @@
 [
   {
+    "item_id": "32303fae0e2c95eb21fc00268ececd4f5e3223f68f697a36135c342b7e402b05",
+    "title": "I Built AI Agents That Ask Companies to Delete Their Data. Most Never Answered",
+    "url": "https://medium.com/@stem-education/i-built-ai-agents-that-ask-companies-to-delete-their-data-most-never-answered-7c90c3d2b6d1",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49769723 (points=5, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T20:08:18+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "企業にデータ削除を求めるAIエージェントを自作して検証したところ、大半の企業が無応答だったという実録記事。",
+    "title_ja": "データ削除請求をAIエージェントで自動化してみた結果",
+    "tags": [
+      "AIエージェント",
+      "自動化",
+      "HackerNews"
+    ],
+    "reader_question": "どのようなプロンプトやワークフローで削除請求の自動化を実装しているのか？",
+    "test_idea": "実際に同様のAIエージェントを小規模に組み、特定のサービスに対して削除請求メールの送信を自動化して反応率を検証する。",
+    "metrics": [
+      "送信数",
+      "応答数",
+      "成功率",
+      "開発時間"
+    ],
+    "estimated_time": "3〜5時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "AIエージェントの自動化事例として面白いが、検証結果がテキスト内の情報に依存しており再現性の詳細が不明なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T23:55:03.313458+00:00"
+  },
+  {
+    "item_id": "57462113bd8f199a9ebd42eac574f91b2cd5621719b348ba21bf4ed07621807d",
+    "title": "Testing Jev as a validation gate for drug-discovery agents",
+    "url": "https://frederickparsons.substack.com/p/can-a-fast-ai-gate-catch-chemistry",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49769496 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T19:35:13+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "創薬向けAIエージェントの検証ゲートとしてJevを使用し、化学的な不備を高速にキャッチできるか検証した記事。",
+    "title_ja": "創薬AIエージェントの検証ゲート「Jev」のテスト",
+    "tags": [
+      "AIエージェント",
+      "創薬",
+      "検証"
+    ],
+    "reader_question": "Jevをどのように自分の環境に導入してテストできるのか？",
+    "test_idea": "Jevのドキュメントを参照し、ローカル環境でサンプルデータを用いたバリデーションを試す。",
+    "metrics": [
+      "導入難易度",
+      "処理速度"
+    ],
+    "estimated_time": "2〜3時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "領域が特化しすぎており、一般的なエンジニアや非エンジニアによる汎用的な再現・検証が難しいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T23:55:03.313458+00:00"
+  },
+  {
+    "item_id": "249ab287229c97eaf29269c753ecd2d90047c8c0f9e3a99788d9808dac13aa11",
+    "title": "Ask HN: How do you interview devs in a post-AI world?",
+    "url": "https://news.ycombinator.com/item?id=49768826",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49768826 (points=24, comments=15)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T18:10:34+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "AIが普及した世界における新しい開発者採用の面接方法について議論しているHacker Newsのスレッド。",
+    "title_ja": "AI時代の開発者面接はどう変わるべきか？（Hacker News議論）",
+    "tags": [
+      "AI開発",
+      "社会論",
+      "キャリア"
+    ],
+    "reader_question": "AI時代の面接手法のトレンドは何か？",
+    "test_idea": "特になし",
+    "metrics": [],
+    "estimated_time": "なし",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・議論のみのトピックであり、実際に手を動かして検証するテーマではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T23:55:03.313458+00:00"
+  },
+  {
     "item_id": "da13be2d52cfa7f47e7084737a20609b9c01a28030bc87ac79b46f8ca88843e3",
     "title": "Certify the Conversation, Not Just the AI Agent",
     "url": "https://www.anuclei.com/blog/certify-the-conversation-not-just-the-agent",
