@@ -1,5 +1,126 @@
 [
   {
+    "item_id": "da13be2d52cfa7f47e7084737a20609b9c01a28030bc87ac79b46f8ca88843e3",
+    "title": "Certify the Conversation, Not Just the AI Agent",
+    "url": "https://www.anuclei.com/blog/certify-the-conversation-not-just-the-agent",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49767068 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T14:55:41+00:00",
+    "intro_score": 1,
+    "verification_score": 1,
+    "final_score": 1.0,
+    "summary_ja": "AIエージェント単体ではなく会話プロセス全体を検証・証明する手法についての解説。",
+    "title_ja": "",
+    "tags": [
+      "AIエージェント",
+      "安全性",
+      "検証"
+    ],
+    "reader_question": "実際の対話検証の導入手順と効果はどのようなものか？",
+    "test_idea": "提示されている概念を自身の開発環境やエージェントログに適用して検証する。",
+    "metrics": [
+      "検証にかかる工数",
+      "検出できるエラーの数"
+    ],
+    "estimated_time": "3-5時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "具体的な手順やツールがなく論文・概念の紹介に近いため検証が難しい。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T15:25:19.728765+00:00"
+  },
+  {
+    "item_id": "799b6ffcf999bbde1f1c5d4cfa3cfe82c66156a5baaa5d82251a6f90cb355bfe",
+    "title": "Reimagining research papers as interactive and reliable AI agents",
+    "url": "https://www.nature.com/articles/s41586-026-11044-y",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49766366 (points=3, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T13:18:20+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "研究論文を信頼性の高いインタラクティブなAIエージェントとして再構築する取り組み。",
+    "title_ja": "",
+    "tags": [
+      "AIエージェント",
+      "論文紹介",
+      "研究"
+    ],
+    "reader_question": "論文紹介だけで自分で再現する方法がないため対象外。",
+    "test_idea": "なし",
+    "metrics": [],
+    "estimated_time": "なし",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文紹介だけであり、個人で直接検証・再現することが困難なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T15:25:19.728765+00:00"
+  },
+  {
+    "item_id": "e68f88da34c7c94ff12717cd8e3b437aa905512ee1ae535dbf7eb0b01e174c56",
+    "title": "Anyone Used Cloudflare AI Agent Diagnostics for SaaS Purchases?",
+    "url": "https://blog.cloudflare.com/aeo/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49765573 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T11:21:52+00:00",
+    "intro_score": 1,
+    "verification_score": 1,
+    "final_score": 1.0,
+    "summary_ja": "SaaS購入時などに活用できるCloudflareのAIエージェント診断機能についての議論。",
+    "title_ja": "",
+    "tags": [
+      "Cloudflare",
+      "AIエージェント",
+      "SaaS"
+    ],
+    "reader_question": "実際にCloudflareの診断ツールをどのように利用できるのか？",
+    "test_idea": "公式ブログに沿って診断機能を有効化し、レポート結果を確認する。",
+    "metrics": [
+      "セットアップ時間",
+      "得られる診断情報の精度"
+    ],
+    "estimated_time": "1-2時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "議論のポイント数が低く、現時点では検証可能な具体的な手順が不足しているため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T15:25:19.728765+00:00"
+  },
+  {
+    "item_id": "efa6b46a133e4870daab31b5d034d9aadf5c99ee9491e9597144e382d2882272",
+    "title": "CrypLLM: AI chat agent for CrypTool 2",
+    "url": "https://github.com/CrypToolProject/CrypTool-2/tree/main/CrypLLM",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49764648 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T08:51:42+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "暗号学習ソフトCrypTool 2に統合されたAIチャットエージェント「CrypLLM」。",
+    "title_ja": "",
+    "tags": [
+      "GitHub",
+      "AIエージェント",
+      "OSS"
+    ],
+    "reader_question": "CrypLLMを実際に導入してどのように動作させることができるか？",
+    "test_idea": "GitHubからリポジトリを取得し、CrypTool 2環境に組み込んでチャット機能を試す。",
+    "metrics": [
+      "セットアップ成功率",
+      "応答速度"
+    ],
+    "estimated_time": "2-3時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "特定ソフトウェアのプラグイン的要素が強く、読者層を選ぶため今回は見送り。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-19T15:25:19.728765+00:00"
+  },
+  {
     "item_id": "a54684b99807ee3afb57845d73915edc8a58b89141965d9e0c8cd4be228ffc7b",
     "title": "Introducing the Australian Youth Safety Blueprint",
     "url": "https://openai.com/index/australian-youth-safety-blueprint",
