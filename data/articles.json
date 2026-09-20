@@ -1,5 +1,94 @@
 [
   {
+    "item_id": "6372e276a87d55f1a054f1e0b3e5c68479a11322ca91e5934d8e067c69d6bbda",
+    "title": "Show HN: Keep your social media active without posting every day",
+    "url": "https://post.buzz/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49775627 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T13:24:07+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "毎日手動で投稿せずにSNSの活動を維持するための自動化ツール。",
+    "title_ja": "毎日投稿せずSNSを自動運用するツール",
+    "tags": [
+      "SNS",
+      "自動化"
+    ],
+    "reader_question": "本当にBANされずに自然な運用ができるのか？",
+    "test_idea": "実際にツールを使って一定期間SNSを運用してみる。",
+    "metrics": [
+      "設定時間",
+      "インプレッション数"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "AI開発やエージェントの検証とは直接関係しないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T15:30:46.010553+00:00"
+  },
+  {
+    "item_id": "d4fd617a5c62865241d486b8e436201843114ab757d9a75e8bfb8cbbf2e56c82",
+    "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+    "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49775481 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T13:07:09+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "不正なブラウザ拡張機能を使ってAIブラウザエージェントを乗っ取る「BragJack」攻撃について解説。",
+    "title_ja": "悪意ある拡張機能によるAIブラウザエージェント乗っ取り",
+    "tags": [
+      "セキュリティ",
+      "AIエージェント"
+    ],
+    "reader_question": "どのような仕組みで攻撃されるのか？",
+    "test_idea": "セキュリティ検証はリスクが高いため推奨しない。",
+    "metrics": [],
+    "estimated_time": "なし",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "セキュリティ上の脆弱性ニュースであり、個人の作業効率化や検証テーマとして不適切。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T15:30:46.010553+00:00"
+  },
+  {
+    "item_id": "aabe5964edf7c485c1ae7559ec2cc43df65ebf8a3a70a470f75f4b537d3c0b03",
+    "title": "AAA AI – Autonomous AI agent squads for local and cloud LLMs",
+    "url": "https://aaaai.me/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49775304 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T12:45:19+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "ローカルおよびクラウドのLLMを活用して動作する自律型AIエージェントチーム構築ツール。",
+    "title_ja": "ローカル・クラウドLLM向け自律型AIエージェントチーム「AAA AI」",
+    "tags": [
+      "AIエージェント",
+      "LLM",
+      "OSS"
+    ],
+    "reader_question": "ローカル環境でどれほど実用的なチーム作業ができるのか？",
+    "test_idea": "ローカルLLMとクラウドLLMを組み合わせてエージェントチームを構築し、タスクを分担させてみる。",
+    "metrics": [
+      "セットアップ時間",
+      "タスク完了率",
+      "消費トークン数"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントのチーム連携を自分で検証する価値が高いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T15:30:46.010553+00:00"
+  },
+  {
     "item_id": "b6a03d45d82756a8d675af4e62df339f8b85d284f2ab1b093ddec01e26c96362",
     "title": "Enjambre – a durable kernel for swarms of AI agents (Python, MCP)",
     "url": "https://github.com/santibccc-sudo/enjambre-os",
