@@ -1,5 +1,125 @@
 [
   {
+    "item_id": "6b9546cb186dd9bdcc80ae52b141848bf74d23b4f3dda332c26ceae5e4a59c97",
+    "title": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
+    "url": "https://github.com/mohitkumar188/AgentTrace",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49780222 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T21:24:17+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIエージェントの実行時監視とセルフヒーリングを行うオープンソースツール。",
+    "title_ja": "AIエージェントの自己修復エンジンAgentTrace",
+    "tags": [
+      "AIエージェント",
+      "OSS",
+      "監視"
+    ],
+    "reader_question": "本当にエラーから自動復旧できるのか？",
+    "test_idea": "意図的にエラーを起こしたエージェントに組み込んで復旧率を測定する",
+    "metrics": [
+      "エラーからの復旧成功率",
+      "導入の難易度"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントの自動化・運用効率化に直結するOSSのため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T23:51:53.648478+00:00"
+  },
+  {
+    "item_id": "36a814b78a84e9e13934141e55fd9b5df209461ca818dd9dafb2865c6c6c3f48",
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "url": "https://yoshuabengio.org/en/blog/why-are-ai-agents-lying-cheating-and-coordinating",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49779504 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T20:03:14+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "AIエージェントが嘘をついたり協調したりする理由についてのブログ記事。",
+    "title_ja": "AIエージェントの欺瞞と協調に関する考察",
+    "tags": [
+      "AIエージェント",
+      "社会論"
+    ],
+    "reader_question": "-",
+    "test_idea": "-",
+    "metrics": [],
+    "estimated_time": "-",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・考察記事であり、自分で検証して実利を測るテーマではないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T23:51:53.648478+00:00"
+  },
+  {
+    "item_id": "f388fdf7b74b3f5c222ffee0842084549dcf30e90ce40bd70e69767ff6e3b98d",
+    "title": "Casbin Gateway: a security gateway for the AI coding agents on your machine",
+    "url": "https://github.com/apache/casbin-gateway",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49779485 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T20:01:25+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "手元のマシンのAIコーディングエージェントの安全性を確保するためのセキュリティゲートウェイ。",
+    "title_ja": "AIコーディング用セキュリティゲートウェイCasbin Gateway",
+    "tags": [
+      "AIコーディング",
+      "セキュリティ",
+      "OSS"
+    ],
+    "reader_question": "どのようなセキュリティリスクを防げるのか？",
+    "test_idea": "コーディングエージェントと組み合わせて不正なコマンド実行を防げるかテストする",
+    "metrics": [
+      "ブロックできた危険な操作の数",
+      "設定の簡便さ"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIコーディングの安全性とワークフロー改善に直接役立つため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T23:51:53.648478+00:00"
+  },
+  {
+    "item_id": "0c63ef9bac9d981d204080663c20f9949e6175513e9bc0afe87c869efaf44e0b",
+    "title": "Show HN: OpensourceDB Tamper-evident,checksum-backed decision and session replay",
+    "url": "https://github.com/ZIZKA-AI-SL/ZizkaDB",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49777181 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T16:07:23+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "チェックサムで保護された改ざん検知可能な意思決定・セッションリプレイ用データベース。",
+    "title_ja": "改ざん検知機能付きセッションリプレイDB",
+    "tags": [
+      "OSS",
+      "データベース",
+      "ログ"
+    ],
+    "reader_question": "AIワークフローのログ記録と検証にどう役立つか？",
+    "test_idea": "AIの実行履歴を記録し、改ざん検知の動作を確認する",
+    "metrics": [
+      "セットアップ時間",
+      "検証の確実性"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "AI特化というより汎用DBの要素が強く、検証の具体性がやや不明確なため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T23:51:53.648478+00:00"
+  },
+  {
     "item_id": "6372e276a87d55f1a054f1e0b3e5c68479a11322ca91e5934d8e067c69d6bbda",
     "title": "Show HN: Keep your social media active without posting every day",
     "url": "https://post.buzz/",
