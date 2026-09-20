@@ -1,5 +1,162 @@
 [
   {
+    "item_id": "b6a03d45d82756a8d675af4e62df339f8b85d284f2ab1b093ddec01e26c96362",
+    "title": "Enjambre – a durable kernel for swarms of AI agents (Python, MCP)",
+    "url": "https://github.com/santibccc-sudo/enjambre-os",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49773912 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T08:55:30+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "PythonとMCPをベースにした、AIエージェントの群れを制御するための耐久性あるカーネルシステム。",
+    "title_ja": "AIエージェント群向け軽量カーネル「Enjambre」",
+    "tags": [
+      "AIエージェント",
+      "Python",
+      "MCP",
+      "OSS"
+    ],
+    "reader_question": "複数エージェントの連携や制御が実際にどの程度安定するのか？",
+    "test_idea": "ローカル環境でEnjambreをセットアップし、複数エージェントを連携させたタスクを実行してみる。",
+    "metrics": [
+      "セットアップ時間",
+      "エージェント間の連携成功率"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "Hacker Newsでの注目度が低く、詳細なドキュメントや実用例を確認してからの検証が望ましいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T09:05:40.918046+00:00"
+  },
+  {
+    "item_id": "dcc0fcc104a5737abdb7076e02d2a82c0a8d67c49a677b0adf8795ccfee0c144",
+    "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+    "url": "https://github.com/BenSiv/fossil-scm",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49772474 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T04:17:59+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "分散バージョン管理システム「Fossil-scm」をAIエージェントのワークフロープラットフォームとして適応させる試み。",
+    "title_ja": "Fossil-scmをAIエージェントのワークフロー基盤に活用",
+    "tags": [
+      "AIエージェント",
+      "ワークフロー",
+      "OSS"
+    ],
+    "reader_question": "Gitの代わりにFossilを使うことでAIエージェントの効率はどう変わるか？",
+    "test_idea": "リポジトリをクローンしてAIエージェントのワークフローに組み込み、動作をテストする。",
+    "metrics": [
+      "導入の手間",
+      "既存ツールとの比較"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "HNでの反応がほぼなく、ニッチすぎて検証による実用的なメリットが限定的なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T09:05:40.918046+00:00"
+  },
+  {
+    "item_id": "a10a62f5dfa2313b961e54eb4ee2c2e0eb0379a049f3c53d3aaa0f2cf82b7002",
+    "title": "Integrating Volt Active Data with AI Agents and Chatbots",
+    "url": "https://docs.voltdb.com/UsingVoltDB/ChapAI.php",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49772434 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T04:07:46+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "Volt Active DataのドキュメントにおけるAIエージェントおよびチャットボットとの統合ガイド。",
+    "title_ja": "Volt Active DataとAIエージェント・チャットボットの統合",
+    "tags": [
+      "AIエージェント",
+      "データベース",
+      "チャットボット"
+    ],
+    "reader_question": "リアルタイムデータベースとAIエージェントの連携はどのように構築するのか？",
+    "test_idea": "公式ドキュメントに沿ってサンプル環境を構築し、応答速度をテストする。",
+    "metrics": [
+      "構築手順の難易度",
+      "レスポンスタイム"
+    ],
+    "estimated_time": "4時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "公式ドキュメントの紹介に留まり、個人開発者が検証するテーマとしては大がかりなため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T09:05:40.918046+00:00"
+  },
+  {
+    "item_id": "dc77530afbc3612382233ed73e4afd9d14a18c6232008a8d42911f8129a0a8ee",
+    "title": "Open-source free meme generator, friendly for AI agents and humans",
+    "url": "https://github.com/terryds/memegenscript",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49771728 (points=3, comments=2)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-20T01:35:45+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "AIエージェントと人間双方が簡単に利用できる無料のオープンソースミーム生成ツール。",
+    "title_ja": "AIエージェントと人間向けのオープンソースミーム生成スクリプト",
+    "tags": [
+      "AIエージェント",
+      "ツール",
+      "OSS"
+    ],
+    "reader_question": "AIエージェントが実際にどの程度スムーズにこのツールを操作してミームを作れるか？",
+    "test_idea": "スクリプトをローカルで動かし、AIエージェント経由でミーム生成を指示してみる。",
+    "metrics": [
+      "実行成功率",
+      "生成にかかる時間"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "実用性や検証価値が低く、娯楽的な用途に留まるため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T09:05:40.918046+00:00"
+  },
+  {
+    "item_id": "6ce258068809194abfc7257e2dc1ae21d82631f192238f9f511e51be564cacdf",
+    "title": "Show HN: I created an open source locally usable full fledged AI platform",
+    "url": "https://github.com/theguysudo/ENZO",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49771118 (points=16, comments=12)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-19T23:47:35+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "ローカル環境で完全動作するオープンソースのフル機能AIプラットフォーム。",
+    "title_ja": "ローカルで動くフル機能のオープンソースAIプラットフォーム「ENZO」",
+    "tags": [
+      "AIプラットフォーム",
+      "ローカルAI",
+      "OSS"
+    ],
+    "reader_question": "ローカル環境でどれだけの機能が実用的に動くのか、セットアップの手間はどうか？",
+    "test_idea": "GitHubからリポジトリを取得してローカル環境で起動し、主要機能を一通り試す。",
+    "metrics": [
+      "セットアップ時間",
+      "メモリ使用量",
+      "応答速度"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "Hacker Newsで一定の注目を集めており、ローカル実行可能なAIプラットフォームとして個人環境での検証価値が高いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-20T09:05:40.918046+00:00"
+  },
+  {
     "item_id": "32303fae0e2c95eb21fc00268ececd4f5e3223f68f697a36135c342b7e402b05",
     "title": "I Built AI Agents That Ask Companies to Delete Their Data. Most Never Answered",
     "url": "https://medium.com/@stem-education/i-built-ai-agents-that-ask-companies-to-delete-their-data-most-never-answered-7c90c3d2b6d1",
