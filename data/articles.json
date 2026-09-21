@@ -1,5 +1,157 @@
 [
   {
+    "item_id": "120fcc92126d5a1c0837aecdd16e72817a7352801c1990175ee6b627a0a1bf5c",
+    "title": "Evaluating Long-Term Memory for AI Agents: AML Cycle 2 Is Now Open",
+    "url": "https://twitter.com/AgentMemoryL/status/2101515447816663222",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49783671 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-21T06:24:34+00:00",
+    "intro_score": 1,
+    "verification_score": 1,
+    "final_score": 1.0,
+    "summary_ja": "AIエージェントの長期記憶能力を評価するベンチマークのサイクル2が開始されました。",
+    "title_ja": "AIエージェントの長期記憶評価サイクル2が公開",
+    "tags": [
+      "AIエージェント",
+      "ベンチマーク",
+      "メモリ"
+    ],
+    "reader_question": "どのようなタスクで記憶力が評価されるのか？",
+    "test_idea": "公開されている評価環境を実際に試し、長期記憶の維持能力を確認する。",
+    "metrics": [
+      "タスク成功率",
+      "記憶保持の持続時間"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文紹介やベンチマーク公開のみで、個人のワークフローへの実利が不透明なため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-21T09:37:48.238913+00:00"
+  },
+  {
+    "item_id": "4861c56912830485fbcc859d057e86146b044c1de878818f5186bf72f4f55b68",
+    "title": "Investment Seer: Agentic AI-Powered Stock and Crypto Analyst",
+    "url": "https://investmentseer.com/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49783107 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-21T04:36:47+00:00",
+    "intro_score": 1,
+    "verification_score": 1,
+    "final_score": 1.0,
+    "summary_ja": "エージェントAIを活用した株式および仮想通貨の分析プラットフォームです。",
+    "title_ja": "エージェント型AIによる株・仮想通貨分析ツール",
+    "tags": [
+      "AIエージェント",
+      "金融",
+      "分析ツール"
+    ],
+    "reader_question": "どの程度の精度で分析ができるのか？",
+    "test_idea": "ツールを使用して実際の市場データに対する分析結果を検証する。",
+    "metrics": [
+      "分析レポートの質",
+      "利用コスト"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "medium",
+    "decision": "SKIP",
+    "reason": "金融予測系ツールは検証結果が自明になりやすく、再現性や信頼性の検証が難しいため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-21T09:37:48.238913+00:00"
+  },
+  {
+    "item_id": "57144c9952e80ca205e24c8292e007a737d729da748660c54dff2ea6f7c70c87",
+    "title": "Can I Let My AI Agent Run on Shabbat?",
+    "url": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49782242 (points=31, comments=15)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-21T02:05:45+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "宗教的な戒律（安息日）とAIエージェントの自律稼働に関する議論です。",
+    "title_ja": "安息日にAIエージェントを稼働させる是非についての考察",
+    "tags": [
+      "AIエージェント",
+      "社会論",
+      "倫理"
+    ],
+    "reader_question": "なし",
+    "test_idea": "なし",
+    "metrics": [],
+    "estimated_time": "0",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・宗教論であり、開発や検証の対象外となるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-21T09:37:48.238913+00:00"
+  },
+  {
+    "item_id": "d4ea2d04eabf286a8ab47fd7ba32d0e996ebb0987b8a4e5e9ce14a1b6fdec13d",
+    "title": "ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible",
+    "url": "https://github.com/zai-org/ZCode",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49782006 (points=4, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-21T01:28:58+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "拡張性が高く強力とされる、Z.aiが開発したコーディングエージェントのハーネスです。",
+    "title_ja": "Z.aiのコーディングエージェント「ZCode」",
+    "tags": [
+      "AIコーディング",
+      "AIエージェント",
+      "OSS"
+    ],
+    "reader_question": "既存のコーディング支援ツールと比べてどこが優れているのか？",
+    "test_idea": "ローカル環境に導入し、実際のコーディングタスクをどの程度こなせるかテストする。",
+    "metrics": [
+      "タスク完了時間",
+      "エラー修正回数"
+    ],
+    "estimated_time": "半日〜1日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "新しいコーディングエージェントとして実際に導入・比較検証する価値が高いため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-21T09:37:48.238913+00:00"
+  },
+  {
+    "item_id": "648066ec15bb20386f231b33d7e24eb19b8f65f56693a007fe5cff8ebbf36ba8",
+    "title": "Show HN: Gdocs-me-up: a high-fidelity Google Docs exporter",
+    "url": "https://github.com/behdad/gdocs-me-up",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49781727 (points=11, comments=3)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-21T00:46:42+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "Googleドキュメントを高精度に出力するためのオープンソースツールです。",
+    "title_ja": "Google Docsを高精度でエクスポートするツール「Gdocs-me-up」",
+    "tags": [
+      "OSS",
+      "ドキュメント",
+      "効率化"
+    ],
+    "reader_question": "標準のエクスポート機能と何が違うのか？",
+    "test_idea": "実際にツールを使って複雑なレイアウトのドキュメントをエクスポートしてみる。",
+    "metrics": [
+      "レイアウトの再現度",
+      "セットアップの手間"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "便利そうだが、AI開発やエージェント自動化の文脈からはやや外れるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-21T09:37:48.238913+00:00"
+  },
+  {
     "item_id": "6b9546cb186dd9bdcc80ae52b141848bf74d23b4f3dda332c26ceae5e4a59c97",
     "title": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
     "url": "https://github.com/mohitkumar188/AgentTrace",
