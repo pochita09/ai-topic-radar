@@ -1,5 +1,160 @@
 [
   {
+    "item_id": "431ee1578636bd14cf9901777b6653c0aa799329683b97e52fb5526b1323d6a3",
+    "title": "Using Pomodoro to limit interaction with AI",
+    "url": "https://anaivebidder.com/posts/the-agentic-pomodoro-iterating-faster/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49854538 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-26T08:53:58+00:00",
+    "intro_score": 3,
+    "verification_score": 4,
+    "final_score": 3.6,
+    "summary_ja": "ポモドーロ法を使ってAIエージェントとのやり取りやイテレーションの速度を管理する手法の提案。",
+    "title_ja": "ポモドーロテクニックでAIとの対話を制限する",
+    "tags": [
+      "AIエージェント",
+      "作業効率化",
+      "ワークフロー"
+    ],
+    "reader_question": "ポモドーロ法を取り入れることで、AI開発の効率や成果物はどう変わるのか？",
+    "test_idea": "一定時間のポモドーロ制限を設けてAIエージェントとコードを書き、制限なしの場合と比較する",
+    "metrics": [
+      "完了したタスク数",
+      "AIとの無駄なやり取りの削減率"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "個人の作業スタイルに依存するため実用性の検証が必要。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-26T09:09:11.051960+00:00"
+  },
+  {
+    "item_id": "4006e8cf8aa917b6ab76d95359bd7fdbadd67b51bb1c9f13ac25683a8ffea2aa",
+    "title": "Linux Kernel Developers Consider Adding Agents.md to Help Guide AI/LLM Agents",
+    "url": "https://www.phoronix.com/news/Linux-Considers-AGENTS-MD",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49854439 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-26T08:36:59+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "Linuxカーネル開発において、AI/LLMエージェントをガイドするためのAgents.md追加が検討されている話題。",
+    "title_ja": "Linuxカーネル開発でのAgents.md導入検討",
+    "tags": [
+      "AIエージェント",
+      "開発ワークフロー",
+      "Linux"
+    ],
+    "reader_question": "Agents.mdのようなガイドファイルを置くことで、エージェントのコード生成精度は向上するのか？",
+    "test_idea": "リポジトリにAgents.mdを配置し、AIエージェントの挙動や出力の正確さがどう変化するかテストする",
+    "metrics": [
+      "エージェントの指示理解度",
+      "修正指示の回数"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "トレンドの動向だが、現時点では具体的な効果測定のフォーマットが限定的。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-26T09:09:11.051960+00:00"
+  },
+  {
+    "item_id": "e628ff1320d45fead437f7c27dde5b46d9820632c9453b92838e60a597475214",
+    "title": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+    "url": "https://botbin.io/?md=true",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49853553 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-26T05:42:40+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "AIエージェントが生成したアーティファクトを共有するためのペーストビンサービス。Show HN投稿。",
+    "title_ja": "AIエージェント向けペーストビン「Botbin.io」",
+    "tags": [
+      "AIエージェント",
+      "開発ツール",
+      "新サービス"
+    ],
+    "reader_question": "既存のPastebin等と比較して、AIエージェントの成果物共有においてどのような利便性があるのか？",
+    "test_idea": "実際にツールを使ってAIの生成物をアップロードし、エージェント間の連携や共有のしやすさを試す",
+    "metrics": [
+      "アップロードの容易さ",
+      "対応フォーマット"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "個人開発ツールとしての実用性や既存ツールとの差別化を検証する必要がある。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-26T09:09:11.051960+00:00"
+  },
+  {
+    "item_id": "208caa3b6c9d55912ab9f6885a73671623a1b7c6b450edf2e551e412b1711677",
+    "title": "Can AI Shopping Agents Be Trusted?",
+    "url": "https://www.f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49853522 (points=14, comments=27)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-26T05:36:46+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIショッピングエージェントの信頼性を確かめるために実際にエージェントを自作して検証したレポート。",
+    "title_ja": "AIショッピングエージェントは信頼できるか？検証と考察",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ",
+      "検証記事"
+    ],
+    "reader_question": "自作のAIショッピングエージェントはどのような脆弱性や信頼性の問題に直面するのか？",
+    "test_idea": "紹介されている検証アプローチを参考に、簡易的な購買エージェントを構築して挙動をテストする",
+    "metrics": [
+      "想定外の動作回数",
+      "セキュリティ上の懸念点"
+    ],
+    "estimated_time": "6時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "エージェントのセキュリティと信頼性というタイムリーなテーマで検証価値が高い。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-26T09:09:11.051960+00:00"
+  },
+  {
+    "item_id": "465e5b4d769ccb14953b84289c7fa62e00e5d56fddbf2540a0dc59ca9a72b2f3",
+    "title": "AI: Who Still Uses Permissions?",
+    "url": "https://news.ycombinator.com/item?id=49852101",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49852101 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-26T01:05:25+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "AIツール利用時のパーミッション（権限管理）のあり方についての議論。",
+    "title_ja": "AI時代におけるパーミッションの現状",
+    "tags": [
+      "AI開発",
+      "セキュリティ",
+      "ワークフロー"
+    ],
+    "reader_question": "現在のAIツール利用において、適切なパーミッション設定はどうあるべきか？",
+    "test_idea": "主要なAIツールの権限設定を見直し、安全かつ効率的な運用ルールを検証する",
+    "metrics": [
+      "設定変更にかかる時間",
+      "セキュリティリスクの低減度"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "議論主体のトピックであり、具体的な検証実験に落とし込みにくいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-26T09:09:11.051960+00:00"
+  },
+  {
     "item_id": "a16629f699b5fcc8bed35dfcc5861a1afeb3b506c4c4eac12a26c53cdcc400d2",
     "title": "Sep 25, 2026ScienceYes, Claude can do Nine Loops",
     "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
