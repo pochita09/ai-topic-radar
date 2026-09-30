@@ -1,5 +1,153 @@
 [
   {
+    "item_id": "c576a0567583abdfa12c39ab9c164adc4d382e53ad955c537c1dfabca4afa550",
+    "title": "Show HN: Instapath – your personal agent needs something, another agent has it",
+    "url": "https://instapath.ai/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49904797 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-30T05:41:16+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "自分のAIエージェントが必要とする情報を、別のエージェントから取得できるようにするツールです。",
+    "title_ja": "個人エージェント同士が連携するInstapath",
+    "tags": [
+      "AIエージェント",
+      "Hacker News"
+    ],
+    "reader_question": "実際のエージェント連携はどのように動作し、実用性はあるのか？",
+    "test_idea": "複数エージェントを立ち上げて情報の授受をテストする。",
+    "metrics": [
+      "成功率",
+      "応答速度"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "詳細な利用手順や具体的なユースケースが不明なため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-30T10:18:20.894362+00:00"
+  },
+  {
+    "item_id": "3f05c03a9ba9a3e016894a92d4f267ca281244ac2de424309e1c1f49778a9adb",
+    "title": "Show HN: Runtape – counterfactual debugging and regression tests for AI agents",
+    "url": "https://github.com/RehanMohammed985/runtape",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49904620 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-30T05:15:21+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIエージェントの動作に対して反実仮想デバッグや回帰テストを行えるオープンソースツールです。",
+    "title_ja": "AIエージェントの反実仮想デバッグと回帰テスト「Runtape」",
+    "tags": [
+      "AIエージェント",
+      "デバッグ",
+      "OSS"
+    ],
+    "reader_question": "エージェントのデバッグ効率がどれほど向上するのか？",
+    "test_idea": "サンプルエージェントを用いてテストの作成と実行を試す。",
+    "metrics": [
+      "テスト作成時間",
+      "バグ発見効率"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントのテスト手法として検証価値が高いため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-30T10:18:20.894362+00:00"
+  },
+  {
+    "item_id": "ab5178c89644a3831c4b048cdac65fa66f83badc0bc965502e21adcf6c89a66c",
+    "title": "Agents Work Better When They Can Pass Each Other Notes",
+    "url": "https://www.deeplearning.ai/the-batch/agents-work-better-when-they-can-pass-each-other-notes",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49904273 (points=4, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-30T04:12:21+00:00",
+    "intro_score": 2,
+    "verification_score": 2,
+    "final_score": 2.0,
+    "summary_ja": "AIエージェント同士がメモをパスし合うことで、より効果的に作業が行えるという解説記事です。",
+    "title_ja": "メモの共有で精度が上がるマルチエージェント連携",
+    "tags": [
+      "AIエージェント",
+      "ワークフロー"
+    ],
+    "reader_question": "メモ共有の仕組みを自作のワークフローにどう組み込めるか？",
+    "test_idea": "提示されたコンセプトに基づき簡易的なメモ共有プロンプトを試す。",
+    "metrics": [
+      "タスク完了精度"
+    ],
+    "estimated_time": "2〜3時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文や解説記事の紹介であり、独自の検証ツールとしての実体がないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-30T10:18:20.894362+00:00"
+  },
+  {
+    "item_id": "482c6bb1fda6dd91c52ea935b45ba61e7ab7806bade19aacd68e18176f9c8224",
+    "title": "OpenAI agents attempted security bypasses and source code siphon on Australian",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49904240 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-30T04:07:08+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "OpenAIのエージェントがオーストラリアでセキュリティバイパスやソースコード取得を試みたとするニュースです。",
+    "title_ja": "OpenAIエージェントに関するセキュリティ問題の報道",
+    "tags": [
+      "AIセキュリティ",
+      "ニュース"
+    ],
+    "reader_question": "",
+    "test_idea": "",
+    "metrics": [],
+    "estimated_time": "",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・ニュース報道であり自分で検証するテーマではないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-30T10:18:20.894362+00:00"
+  },
+  {
+    "item_id": "09c932cdd0009bf984e6b33e5299205fbee784396c86d0b9403e48260bcb325d",
+    "title": "Show HN: Moching – AI desktop agent with 219 built-in tools (Rust)",
+    "url": "https://github.com/moching-ai-dev/moching",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49903470 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-09-30T02:00:13+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "多数のツールを内蔵し、Rustで実装されたデスクトップ向けのAIエージェントです。",
+    "title_ja": "219のツールを内蔵したRust製デスクトップAIエージェント「Moching」",
+    "tags": [
+      "AIエージェント",
+      "Rust",
+      "OSS"
+    ],
+    "reader_question": "内蔵ツールを自分のデスクトップ作業にどう活用できるか？",
+    "test_idea": "リポジトリをクローンしてローカル環境でビルドし、基本操作を試す。",
+    "metrics": [
+      "セットアップ時間",
+      "動作の安定性"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "豊富な内蔵ツールを持つOSSであり、ローカルでの検証が魅力的であるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-09-30T10:18:20.894362+00:00"
+  },
+  {
     "item_id": "fa23b8533f7e2c3f257de4120726541addfd120aa652f335ad1e9f2c21b1d700",
     "title": "Introducing GPT-6.1 Sol",
     "url": "https://openai.com/index/introducing-gpt-6-1-sol",
