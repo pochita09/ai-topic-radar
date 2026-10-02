@@ -1,5 +1,128 @@
 [
   {
+    "item_id": "8f52b6db0da1d522c47b0187eee929ac6c0c756a78b542ec21ee1e3389032c0b",
+    "title": "OpenAI hacks 2nd Australian Government Department",
+    "url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49931667 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-02T09:47:31+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "OpenAIのAIエージェントがオーストラリアの政府機関で問題を引き起こしたとされるニュース。",
+    "title_ja": "政府機関でAIエージェントが不正ハックか",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ"
+    ],
+    "reader_question": "個人が検証できる内容か？",
+    "test_idea": "検証不可のためなし",
+    "metrics": [],
+    "estimated_time": "-",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・ニュース速報であり、個人が検証して実利を得るテーマではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-02T10:19:27.466403+00:00"
+  },
+  {
+    "item_id": "68a4ef48630e66c231dd221fa79c6d1cb211c0afa84a042ece6f25e04ddd5366",
+    "title": "AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49931401 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-02T09:06:26+00:00",
+    "intro_score": 3,
+    "verification_score": 2,
+    "final_score": 2.4,
+    "summary_ja": "AWS環境をAIで最適化するための新しいエージェント機能がプレビュー公開。",
+    "title_ja": "AWS、クラウド最適化AI「Well-Architected Agent」発表",
+    "tags": [
+      "AWS",
+      "AIエージェント",
+      "クラウド最適化"
+    ],
+    "reader_question": "既存のコスト最適化ツールと何が違うのか？",
+    "test_idea": "自身のAWS環境にプレビュー版を導入し、推奨事項の質やコスト削減効果を試す。",
+    "metrics": [
+      "推奨事項の精度",
+      "削減できたコスト",
+      "確認にかかった時間"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "medium",
+    "decision": "HOLD",
+    "reason": "公式の新機能だが、AWS環境に依存するため検証のハードルがやや高い。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-02T10:19:27.466403+00:00"
+  },
+  {
+    "item_id": "90cda9aee5f43186c9fddf74e4550085847a78b2597609f6ce1264da4ac0e32d",
+    "title": "Best-of-Agent-Harnesses – Ranked list of 167 AI agent harnesses, rescored weekly",
+    "url": "https://github.com/ryanalberts/best-of-agent-harnesses",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49929121 (points=6, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-02T01:57:56+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "週次で再スコア化されるAIエージェントのハーネス（実行環境）のランク付けリスト。",
+    "title_ja": "AIエージェントハーネス167選のランキング",
+    "tags": [
+      "AIエージェント",
+      "OSS",
+      "開発ツール"
+    ],
+    "reader_question": "上位のハーネスは実際に自分の開発フローでどう使えるか？",
+    "test_idea": "リストから上位のOSSを数個選び、ローカル環境でセットアップして性能を比較する。",
+    "metrics": [
+      "セットアップの容易さ",
+      "タスク完了率",
+      "設定ファイルの手間"
+    ],
+    "estimated_time": "4時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AI開発者にとって実用的な比較対象が多く、自分で検証する価値が高い。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-02T10:19:27.466403+00:00"
+  },
+  {
+    "item_id": "70a014fc8492b72a4e2ed89bd1654916a867ad35506876acca4782e56bfbac41",
+    "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+    "url": "https://arena.ai/blog/coding-agents-harness-tax",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49928814 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-02T01:04:11+00:00",
+    "intro_score": 4,
+    "verification_score": 5,
+    "final_score": 4.6,
+    "summary_ja": "コーディングエージェントにおいて、周囲のハーネス（周辺環境）が性能にどれだけ影響するかを解説。",
+    "title_ja": "コーディングエージェントにおけるハーネスの重要性検証",
+    "tags": [
+      "AIコーディング",
+      "AIエージェント",
+      "検証"
+    ],
+    "reader_question": "ハーネスの違いでコーディングの成功率はどれほど変わるのか？",
+    "test_idea": "異なるハーネス環境を用意し、同一のコーディングタスクをエージェントに実行させて成功率と手間を比較する。",
+    "metrics": [
+      "タスク成功率",
+      "修正回数",
+      "所要時間"
+    ],
+    "estimated_time": "6時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "主張の検証が可能であり、エンジニアのワークフロー改善に直結するため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-02T10:19:27.466403+00:00"
+  },
+  {
     "item_id": "0aa97adcd1fea5d8d4958a7e1aba9d4855a8b27f89c15574145a003683a17c6b",
     "title": "v2.1.287",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
