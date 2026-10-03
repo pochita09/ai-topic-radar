@@ -1,5 +1,187 @@
 [
   {
+    "item_id": "f8a81dd8c43fa920940e8b6e296279318910ae7ae0cc0e9480189205dbbc4c97",
+    "title": "How many AI agents could run on the AI chips shipped through 2027?",
+    "url": "https://epoch.ai/publications/estimating-the-agent-population",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49944481 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-03T14:17:36+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "2027年までに供給されるAIチップ上で稼働できるAIエージェントの総数を推計した論文の解説。",
+    "title_ja": "AIチップで稼働可能なエージェント数の推計",
+    "tags": [
+      "AIエージェント",
+      "AIチップ",
+      "予測"
+    ],
+    "reader_question": "どのような前提条件で算出された数値なのか？",
+    "test_idea": "推計モデルの数式を自分で追って再現性を確認する",
+    "metrics": [
+      "計算モデルの前提"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・マクロな予測であり自分で検証可能なテーマではないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-03T15:46:11.354659+00:00"
+  },
+  {
+    "item_id": "2c2f704bb9b96f5f8caf5d3f7f212b759b0e51cf70ab3eff54e07c86cd90d9ec",
+    "title": "What Kubernetes' \"monolith\" lesson means for AI agent harnesses",
+    "url": "https://thenewstack.io/kubecon-agent-harness-koordinator/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49944432 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-03T14:12:07+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "Kubeconで議論されたKubernetesのモノリスに関する教訓をAIエージェントハーネスに応用する視点について。",
+    "title_ja": "Kubernetesモノリスの教訓とAIエージェントハーネス",
+    "tags": [
+      "Kubernetes",
+      "AIエージェント",
+      "Kubecon"
+    ],
+    "reader_question": "具体的なアーキテクチャの共通点は何か？",
+    "test_idea": "既存のハーネス構造と比較する",
+    "metrics": [
+      "設計の類似点"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "概念的な議論であり実際に手を動かして検証するテーマではないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-03T15:46:11.354659+00:00"
+  },
+  {
+    "item_id": "7425c4c950b47fac643fe12ee42eff53d7be1ec3eca0d7ebfda0ff4f3a3f28a9",
+    "title": "Agent Pool M2M economy where AI agents bid, execute work, and earn autonomously",
+    "url": "https://agent-pool-gateway-production.up.railway.app/llms.txt",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49944056 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-03T13:25:21+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "AIエージェント同士が入札、作業実行、報酬獲得を自律的に行うプールエコノミーの仕組み。",
+    "title_ja": "AIエージェントが自律取引・稼働する経済圏プラットフォーム",
+    "tags": [
+      "AIエージェント",
+      "自動化",
+      "経済圏"
+    ],
+    "reader_question": "実際にどのようにエージェント間で取引が行われるのか？",
+    "test_idea": "ゲートウェイにアクセスしてエージェントの動作を確認する",
+    "metrics": [
+      "トランザクション成功率"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "実態や検証手順が不透明であり再現性が低いため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-03T15:46:11.354659+00:00"
+  },
+  {
+    "item_id": "994b514e45b7fe16afe77e7597c1c0efcbf0504a02bce92e0da0807f58bd7225",
+    "title": "Show HN: Beautiful form back end for AI agents – Nisuform",
+    "url": "https://nisuform.com/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49942913 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-03T10:16:04+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "AIエージェントのための美しいフォームバックエンドを提供するShow HNのプロジェクト。",
+    "title_ja": "AIエージェント向けフォームバックエンドツール",
+    "tags": [
+      "AIエージェント",
+      "バックエンド",
+      "フォーム"
+    ],
+    "reader_question": "通常のエージェント開発でどれほど簡単に組み込めるか？",
+    "test_idea": "実際にAPIを叩いてエージェントからフォームバックエンドとして利用してみる",
+    "metrics": [
+      "セットアップ時間",
+      "APIの使いやすさ"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "新しいツールだが個別のユースケースでの実用性をもう少し見極める必要があるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-03T15:46:11.354659+00:00"
+  },
+  {
+    "item_id": "1a10700dc0b028df1f5e0e1895f926fef3a6ad9f087063e025a69ca74ada35d1",
+    "title": "An AI agent emailed researchers for help. It told us why",
+    "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49942865 (points=44, comments=71)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-03T10:07:08+00:00",
+    "intro_score": 1,
+    "verification_score": 0,
+    "final_score": 0.4,
+    "summary_ja": "AIエージェントが独自に数百人の研究者にメールで協力を求めた件についてのサイエンス誌の報道。",
+    "title_ja": "研究者にメールを送ったAIエージェントの動機",
+    "tags": [
+      "AIエージェント",
+      "セキュリティ",
+      "倫理"
+    ],
+    "reader_question": "なぜそのような行動をとったのか？",
+    "test_idea": "元記事の事例を読み解く",
+    "metrics": [
+      "特になし"
+    ],
+    "estimated_time": "30分",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "ニュース報道であり自分で検証可能なテーマではないため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-03T15:46:11.354659+00:00"
+  },
+  {
+    "item_id": "c8f2731fb3420c8f4b733a81dd5a633d0dc27b2544bfcfd9171cecc31444d98a",
+    "title": "A document layer for AI agents",
+    "url": "https://www.claix.dev",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49942838 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-03T10:02:26+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "AIエージェントの文脈理解やデータ共有を効率化するための新しいドキュメントレイヤーサービス。",
+    "title_ja": "AIエージェント向けドキュメントレイヤー基盤",
+    "tags": [
+      "AIエージェント",
+      "ドキュメント",
+      "開発ツール"
+    ],
+    "reader_question": "既存のRAGやベクトルDBと何が違うのか？",
+    "test_idea": "実際にドキュメントを投入してエージェントからの参照速度や精度をテストする",
+    "metrics": [
+      "取り込み速度",
+      "検索精度"
+    ],
+    "estimated_time": "2時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "新しいレイヤーツールだが具体的なメリットを実地で比較する必要があるため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-03T15:46:11.354659+00:00"
+  },
+  {
     "item_id": "fcb8c12f0014e666c7bb81a57c0f9b3b3b6ba81e05abdd39125dea7f4721ba15",
     "title": "Nobody Asked AI to Hack Hugging Face. So Why Did It?",
     "url": "https://ankitjain.info/ankit/2026/09/28/ai-agents-sandboxes-hugging-face-incident/",
