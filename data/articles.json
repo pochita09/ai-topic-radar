@@ -1,5 +1,63 @@
 [
   {
+    "item_id": "a76a89e37ac9f4c96940960647d00e89506bd77dbf5b80b60f2c47785fd5d7e8",
+    "title": "MBTI for AI coding agents, complete with a self-awareness score",
+    "url": "https://github.com/joonfjp/16agents",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49951064 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-04T05:52:05+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "AIコーディングエージェントの特性をMBTIと自己認識スコアで評価するプロジェクト。",
+    "title_ja": "AIコーディングエージェントのMBTI診断",
+    "tags": [
+      "AIエージェント",
+      "AIコーディング",
+      "OSS"
+    ],
+    "reader_question": "実際のコーディング精度にどう影響するのか？",
+    "test_idea": "実際にリポジトリを導入して各エージェントのMBTI診断とスコアを測る",
+    "metrics": [
+      "導入手順の簡便さ",
+      "診断結果の妥当性"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "Hacker Newsで話題だが実用的な検証価値がやや不透明なため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-04T10:25:37.087478+00:00"
+  },
+  {
+    "item_id": "ac67a65a99c2caec01a006ee6190a1ba82c7e09d24b6bfda3f2f1e2966602985",
+    "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
+    "url": "https://arxiv.org/abs/2608.08253",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49950478 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-04T03:57:16+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "AIエージェント向けの管理されたメモリOSを提案する論文およびプロジェクト。",
+    "title_ja": "AIエージェント向け記憶OS「SuperLocalMemory 4.0」",
+    "tags": [
+      "論文紹介",
+      "AIエージェント"
+    ],
+    "reader_question": "",
+    "test_idea": "",
+    "metrics": [],
+    "estimated_time": "",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文紹介だけであり、手元で直接試して検証することが困難なため",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-04T10:25:37.087478+00:00"
+  },
+  {
     "item_id": "1af63daa8fa11b399b989e2d06145b79264c6d86cb0830b01e038386999799fc",
     "title": "v2.1.289",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
