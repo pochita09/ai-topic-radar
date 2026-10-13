@@ -1,5 +1,97 @@
 [
   {
+    "item_id": "96efd705e6e9ae0b7ef3e3c8b298489fbe1efec4cc77c489b6ceff5b1d959053",
+    "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+    "url": "https://github.com/theonly1me/shadowclone",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50069498 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-13T10:26:52+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIコーディングエージェントの修正履歴からスキルを自動学習させるHacker News発のOSS。",
+    "title_ja": "コーディングエージェントの修正からスキルを学習するShadowclone",
+    "tags": [
+      "AIコーディング",
+      "OSS",
+      "AIエージェント"
+    ],
+    "reader_question": "実際のコーディングエージェントの修正からどの程度効率よくスキルを学習できるのか？",
+    "test_idea": "自身の開発環境でツールを導入し、エージェントの修正フィードバックからスキルが蓄積されるかテストする",
+    "metrics": [
+      "導入難易度",
+      "スキル学習の成功率",
+      "再利用時の精度"
+    ],
+    "estimated_time": "3時間",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "Hacker News掲載のOSSであり、AIコーディングの効率化に直結するため検証価値が高い。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T11:26:19.452803+00:00"
+  },
+  {
+    "item_id": "cff71639d5778fe1ea3af0f8e1a9ecad27e793e7fb9b58190e8ee9ab6b1f12c2",
+    "title": "Show HN: Search for AI agents with usefulness score built in",
+    "url": "https://github.com/Ayobamiu/usefulness-search",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50066559 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-13T04:07:07+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "有効性スコアを内蔵したAIエージェントを検索するためのオープンソースツール。",
+    "title_ja": "有用性スコア付きAIエージェント検索ツール",
+    "tags": [
+      "AIエージェント",
+      "OSS",
+      "検索ツール"
+    ],
+    "reader_question": "スコアの基準は信頼できるか、実際の検索体験は実用的か？",
+    "test_idea": "実際にツールを動かしてエージェントを検索し、提示される有用性スコアの妥当性を検証する",
+    "metrics": [
+      "検索速度",
+      "スコアの納得感",
+      "見つかるエージェントの質"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "有用性の基準や実際の検索精度が未知数であり、まずは試してみる必要がある。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T11:26:19.452803+00:00"
+  },
+  {
+    "item_id": "2a95d8dc9cd15f380fb8c839f8cec6b975cb4d7ab0c5ae80365c2c466b9fd141",
+    "title": "In 5 years, 95% of tokens used by AI agents will be for tasks humans never did",
+    "url": "https://twitter.com/levie/status/1986620885592113218",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50066144 (points=5, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-13T03:12:59+00:00",
+    "intro_score": 0,
+    "verification_score": 0,
+    "final_score": 0.0,
+    "summary_ja": "5年後にはAIエージェントが使用するトークンの95%が人間がやったことのないタスクになるという予測。",
+    "title_ja": "AIエージェントのトークン消費に関する考察",
+    "tags": [
+      "社会論",
+      "AIエージェント",
+      "将来予測"
+    ],
+    "reader_question": "",
+    "test_idea": "",
+    "metrics": [],
+    "estimated_time": "",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "社会論・予測に関する発言であり、自分で検証できるテーマではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T11:26:19.452803+00:00"
+  },
+  {
     "item_id": "bbc230f48771821f059488e87e4f9ae5ce129498651d50cf1a12040fb0ae861f",
     "title": "Turn a frontier AI into a multi-agent systems architect",
     "url": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
@@ -29714,98 +29806,5 @@
     "reason": "細かすぎるバグ修正のため検証価値がない",
     "topic_id": "ai-models",
     "processed_at": "2026-09-06T08:23:23.049578+00:00"
-  },
-  {
-    "item_id": "c27816e9ae978e2938ee5d200196801ae51b1b008fccdc6e707bb20b50f2e6bc",
-    "title": "interpretation to AI agents",
-    "url": "https://ag3497120.github.io/call-me-vera/",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49583685 (points=2, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-06T05:47:22+00:00",
-    "intro_score": 0,
-    "verification_score": 0,
-    "final_score": 0.0,
-    "summary_ja": "AIエージェントの動作や解釈についての議論や解説です。",
-    "title_ja": "AIエージェントの解釈に関する考察",
-    "tags": [
-      "AIエージェント"
-    ],
-    "reader_question": "具体的にどのような仕組みや実用性があるのか",
-    "test_idea": "記載されている内容の概念検証",
-    "metrics": [
-      "特になし"
-    ],
-    "estimated_time": "1時間",
-    "estimated_cost_level": "low",
-    "decision": "SKIP",
-    "reason": "論文や解説の紹介に近く、実際に試す具体的な方法や手順が不明なため",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-06T08:23:23.049578+00:00"
-  },
-  {
-    "item_id": "89eacadd0b14a6f65fe019ba42b31a49141e57a05fc61d1183f6e375c84ed38c",
-    "title": "Routed: Local, zero-token hybrid router for AI agent skills (<20ms)",
-    "url": "https://github.com/bshea-1/Routed",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49582923 (points=2, comments=1)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-06T03:04:52+00:00",
-    "intro_score": 4,
-    "verification_score": 4,
-    "final_score": 4.0,
-    "summary_ja": "20ms未満で動作する、トークン消費ゼロのローカルAIエージェントスキル用ルーターです。",
-    "title_ja": "ローカル動作のAIエージェント用ハイブリッドルーター「Routed」",
-    "tags": [
-      "AIエージェント",
-      "OSS",
-      "ローカル"
-    ],
-    "reader_question": "実際にどの程度高速にルーティングされ、精度は実用に耐えるか？",
-    "test_idea": "手元の環境にクローンしてローカルでビルドし、処理速度とルーティング精度を計測する。",
-    "metrics": [
-      "処理速度(ms)",
-      "ルーティング精度",
-      "トークン消費量"
-    ],
-    "estimated_time": "2時間",
-    "estimated_cost_level": "low",
-    "decision": "GO",
-    "reason": "ゼロトークン・高速動作を謳う注目OSSであり、ローカル環境で簡単に検証できるため",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-06T08:23:23.049578+00:00"
-  },
-  {
-    "item_id": "8f93c4f9a7eb1c2ab4bb8dffd79e545cdd2e6e36d7b3e175778bc8c4201a5889",
-    "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-    "url": "https://github.com/okf-memory/okf-agent-memory",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49581240 (points=5, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T22:15:52+00:00",
-    "intro_score": 4,
-    "verification_score": 4,
-    "final_score": 4.0,
-    "summary_ja": "AIコーディングエージェント向けにGitをネイティブ活用した永続メモリシステムを提供するOSS。",
-    "title_ja": "GitベースのAIエージェント向け永続メモリツール",
-    "tags": [
-      "AIエージェント",
-      "OSS",
-      "Git",
-      "AIコーディング"
-    ],
-    "reader_question": "通常のコンテキスト管理や既存のメモリ機能と比べて、どう開発効率が変わるのか？",
-    "test_idea": "実際のコーディング作業に導入し、エージェントの記憶維持力やコード生成の精度を検証する。",
-    "metrics": [
-      "記憶保持率",
-      "コンテキスト維持コスト",
-      "セットアップの手間"
-    ],
-    "estimated_time": "2時間",
-    "estimated_cost_level": "low",
-    "decision": "GO",
-    "reason": "AIコーディングのワークフロー改善に直結し、自分で検証する価値が高いため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T23:34:26.181136+00:00"
   }
 ]
