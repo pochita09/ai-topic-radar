@@ -1,5 +1,217 @@
 [
   {
+    "item_id": "bbc230f48771821f059488e87e4f9ae5ce129498651d50cf1a12040fb0ae861f",
+    "title": "Turn a frontier AI into a multi-agent systems architect",
+    "url": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50064868 (points=4, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-13T00:14:03+00:00",
+    "intro_score": 3,
+    "verification_score": 4,
+    "final_score": 3.6,
+    "summary_ja": "AIを活用してマルチエージェントシステムのアーキテクチャを構築するガイドラインと実装。",
+    "title_ja": "フロンティアAIをマルチエージェント設計者にする手法",
+    "tags": [
+      "AIエージェント",
+      "AI開発",
+      "アーキテクチャ"
+    ],
+    "reader_question": "実際にどれほどの精度でマルチエージェントの設計ができるのか？",
+    "test_idea": "提示されたガイドラインに沿って実際にAIにシステム設計を行わせ、成果物を評価する。",
+    "metrics": [
+      "設計にかかった時間",
+      "生成された構成の妥当性"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "Hacker Newsのポイント数が低く影響力が不明だが、AIエージェント設計の検証テーマとして興味深いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
+    "item_id": "f27ccbe3224e29ea0ee2b4057e21b9a17651a15d78adab51aa8b907a105a24b3",
+    "title": "CS2680 Modern AI Systems: Agents and System Optimizations",
+    "url": "https://cs2680.seas.harvard.edu/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50064532 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-12T23:33:24+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "AIエージェントやシステム最適化に焦点を当てた大学の講義プログラムとリソース。",
+    "title_ja": "ハーバード大の現代AIシステム講義資料",
+    "tags": [
+      "AIエージェント",
+      "システム最適化",
+      "学習リソース"
+    ],
+    "reader_question": "どのようなカリキュラムが組まれているのか？",
+    "test_idea": "公開されている講義資料の目次や内容を確認する。",
+    "metrics": [
+      "特になし"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "論文紹介や講義資料の閲覧だけであり、自分で検証するテーマではないため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
+    "item_id": "e405ec36d4893f6b7bbfb1e5da9d285098cfc237e49b3e400783c38c191cf88a",
+    "title": "A shared, verifiable fix database that AI agents read and write themselves",
+    "url": "https://cuddly-guide-4q6q54rg76653jvxj-8000.app.github.dev/llms.txt",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50064444 (points=9, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-12T23:22:00+00:00",
+    "intro_score": 4,
+    "verification_score": 4,
+    "final_score": 4.0,
+    "summary_ja": "AIエージェントが自ら読み書きしてバグ修正を共有・検証できる仕組みのデータベース。",
+    "title_ja": "AI自身が読み書きする検証可能な修正データベース",
+    "tags": [
+      "AIエージェント",
+      "AIコーディング",
+      "自動化"
+    ],
+    "reader_question": "AIが本当に自律的にデータベースを更新してバグを修正できるのか？",
+    "test_idea": "実際にエージェントを動かしてデータベースへの読み書きとバグ修正のサイクルをテストする。",
+    "metrics": [
+      "修正の成功率",
+      "エラー発生頻度"
+    ],
+    "estimated_time": "1日",
+    "estimated_cost_level": "low",
+    "decision": "GO",
+    "reason": "AIエージェントによる自動化ワークフローとして検証価値が高いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
+    "item_id": "655b4e8b8793d66a4afd068e0c6f95b23acdf2a5cf413d3e76202832812d8a2e",
+    "title": "Veda: First AI Agentic Hobby OS",
+    "url": "https://github.com/vahmoh25/Veda/blob/main/README.md",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50064184 (points=2, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-12T22:51:19+00:00",
+    "intro_score": 3,
+    "verification_score": 3,
+    "final_score": 3.0,
+    "summary_ja": "AIエージェントを主軸に据えた実験的なホビーOSのプロジェクト。",
+    "title_ja": "世界初のAIエージェントホビーOS「Veda」",
+    "tags": [
+      "AIエージェント",
+      "OSS",
+      "OS"
+    ],
+    "reader_question": "どのような仕組みでAIがOSを操作・制御しているのか？",
+    "test_idea": "リポジトリをクローンして環境構築し、動作をデモ試行する。",
+    "metrics": [
+      "ビルド成功率",
+      "動作応答速度"
+    ],
+    "estimated_time": "半日",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "興味深い試みだが環境構築のハードルが高く、実用的な検証結果が出るか未知数なため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
+    "item_id": "9f7b3328a683de8024933a5526f8676de9d1355d089b65b23cec56292e4b41d6",
+    "title": "OpenKylin: The AI Agent Linux Desktop",
+    "url": "https://techstrong.ai/articles/openkylin-the-ai-agent-linux-desktop/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50064100 (points=7, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-12T22:42:42+00:00",
+    "intro_score": 3,
+    "verification_score": 2,
+    "final_score": 2.4,
+    "summary_ja": "AIエージェント機能を組み込んだLinuxディストリビューションの解説。",
+    "title_ja": "AIエージェント統合Linuxデスクトップ「OpenKylin」",
+    "tags": [
+      "AIエージェント",
+      "Linux",
+      "デスクトップ"
+    ],
+    "reader_question": "通常のOSと比べてどれほどAIによる作業効率化が図れるのか？",
+    "test_idea": "OSをインストールまたは仮想環境で動かし、AI機能の使い勝手を試す。",
+    "metrics": [
+      "セットアップ時間",
+      "AI機能の応答性"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "HOLD",
+    "reason": "OS全体の検証となり手間がかかる割に、個人の開発ワークフローへの転用が難しいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
+    "item_id": "df3a8438bc88139c8af0bf6d34b5e907a65350e0e3115bbef87d18e684827b54",
+    "title": "Agentic BSS Explained: AI-Native Model, Architecture and Use Cases [pdf]",
+    "url": "https://framerusercontent.com/assets/PKpdXtv0xAf0e4W4M53D2pUDpzg.pdf",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50063723 (points=3, comments=0)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-12T22:06:00+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "通信・事業者向けなどのAIネイティブなBSSモデルとアーキテクチャに関する資料。",
+    "title_ja": "AIネイティブなビジネス支援システム（BSS）解説",
+    "tags": [
+      "AIアーキテクチャ",
+      "業務効率化"
+    ],
+    "reader_question": "具体的なアーキテクチャはどうなっているのか？",
+    "test_idea": "PDF資料を読み込み、要点をまとめる。",
+    "metrics": [
+      "特になし"
+    ],
+    "estimated_time": "1時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "エンタープライズ向けの概念・アーキテクチャ解説であり、手元で検証しにくいため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
+    "item_id": "66071016ad467f3401884fae1f38a7587df11f788858f98637c36f165a30cb3d",
+    "title": "Teaching a Door to Say No",
+    "url": "https://2389.ai/research/writing/door-agent/",
+    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=50063190 (points=2, comments=1)",
+    "source": "Hacker News (AI Agent)",
+    "channel": "Hacker News",
+    "published_at": "2026-10-12T21:17:11+00:00",
+    "intro_score": 2,
+    "verification_score": 1,
+    "final_score": 1.4,
+    "summary_ja": "物理的あるいは概念的なドアエージェントに拒絶行動を学習させるリサーチ記事。",
+    "title_ja": "ドアに「No」と言わせるエージェントの実験",
+    "tags": [
+      "AIエージェント",
+      "リサーチ"
+    ],
+    "reader_question": "どのようなプロンプトや制御で拒絶行動を実現しているのか？",
+    "test_idea": "記事の手法を参考に簡単なシミュレーションを作成する。",
+    "metrics": [
+      "特になし"
+    ],
+    "estimated_time": "数時間",
+    "estimated_cost_level": "low",
+    "decision": "SKIP",
+    "reason": "エッセイ的なリサーチ記事であり、実用的な検証や再現のメリットが薄いため。",
+    "topic_id": "ai-models",
+    "processed_at": "2026-10-13T02:50:57.373929+00:00"
+  },
+  {
     "item_id": "ceb04916a2ec7c9d8be527d85add1eb28e57a7d944bd977f43b71f26698525f7",
     "title": "AI models may be capable of self-replicating without access to a datacenter",
     "url": "https://www.anthropic.com/research/self-replicating-ai",
@@ -29595,217 +29807,5 @@
     "reason": "AIコーディングのワークフロー改善に直結し、自分で検証する価値が高いため。",
     "topic_id": "ai-models",
     "processed_at": "2026-09-05T23:34:26.181136+00:00"
-  },
-  {
-    "item_id": "75563fcbe065d43b82698fac35f30a52a849ce6d386a9cebd0e905198cb32a37",
-    "title": "How do you filter noise from signal in programming resources?",
-    "url": "https://news.ycombinator.com/item?id=49580521",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49580521 (points=2, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T20:50:51+00:00",
-    "intro_score": 0,
-    "verification_score": 0,
-    "final_score": 0.0,
-    "summary_ja": "プログラミング学習や情報収集において、大量のノイズからシグナルをどう見分けるかについての議論。",
-    "title_ja": "プログラミングリソースのノイズフィルタリング手法",
-    "tags": [
-      "プログラミング",
-      "情報収集"
-    ],
-    "reader_question": "",
-    "test_idea": "",
-    "metrics": [],
-    "estimated_time": "",
-    "estimated_cost_level": "low",
-    "decision": "SKIP",
-    "reason": "AIツールや自動化のテーマに直接関連しないため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T23:34:26.181136+00:00"
-  },
-  {
-    "item_id": "be39b38212617c7b977289c32954ee8a4cd93ec19995ccd2eb0ff1d8da0afb63",
-    "title": "Show HN: ChatPanel Now Available on Firefox",
-    "url": "https://chatpanel.net/",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49579835 (points=2, comments=1)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T19:30:01+00:00",
-    "intro_score": 3,
-    "verification_score": 2,
-    "final_score": 2.4,
-    "summary_ja": "Firefoxブラウザで利用できるサイドパネル型のチャットツール。Show HNとして公開。",
-    "title_ja": "Firefox対応のチャットパネル拡張機能",
-    "tags": [
-      "ブラウザ拡張",
-      "AIツール",
-      "Firefox"
-    ],
-    "reader_question": "既存のブラウザ拡張機能と比べてどのような利便性があるのか？",
-    "test_idea": "Firefoxにインストールし、普段のワークフローでの使い勝手を試す。",
-    "metrics": [
-      "応答速度",
-      "UIの快適さ"
-    ],
-    "estimated_time": "30分",
-    "estimated_cost_level": "low",
-    "decision": "HOLD",
-    "reason": "新ツールだが、検証しても結果や独自性がやや自明なため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T23:34:26.181136+00:00"
-  },
-  {
-    "item_id": "e1c955a97676679cd0bdde4c65b691248d4e272376243acc6b4bdc03ef903339",
-    "title": "Praesidias – pre-execution authorization for AI agents",
-    "url": "https://github.com/sowainat/praesidias-pabe01",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49577893 (points=2, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T16:07:29+00:00",
-    "intro_score": 4,
-    "verification_score": 4,
-    "final_score": 4.0,
-    "summary_ja": "AIエージェントの自律実行前にアクションを認可するためのセキュリティツール。",
-    "title_ja": "AIエージェントの実行前承認システム",
-    "tags": [
-      "AIエージェント",
-      "セキュリティ",
-      "OSS"
-    ],
-    "reader_question": "エージェントの暴走や意図せぬ操作をどの程度確実に防げるのか？",
-    "test_idea": "サンプル環境でエージェントを動かし、事前承認フローが正しく機能するか検証する。",
-    "metrics": [
-      "ブロック成功率",
-      "導入の複雑さ"
-    ],
-    "estimated_time": "3時間",
-    "estimated_cost_level": "low",
-    "decision": "GO",
-    "reason": "AIエージェントの安全性と実用的なワークフロー制御に関する検証テーマとして優れているため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T23:34:26.181136+00:00"
-  },
-  {
-    "item_id": "d240dab5744289309c5df42cac827691052cc0ab555b0b9cf54d229b2b7a1477",
-    "title": "Defending Against AI Agents with Social Engineering",
-    "url": "https://blog.thinkst.com/2026/09/getting-agents-to-tell-on-themselves.html",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49577108 (points=3, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T14:52:18+00:00",
-    "intro_score": 2,
-    "verification_score": 2,
-    "final_score": 2.0,
-    "summary_ja": "ソーシャルエンジニアリングを用いるAIエージェントに対する防御手法や脆弱性についての解説記事。",
-    "title_ja": "ソーシャルエンジニアリング型AIエージェントへの防御策",
-    "tags": [
-      "AIエージェント",
-      "セキュリティ"
-    ],
-    "reader_question": "具体的にどのようなプロンプトや仕掛けでエージェントが情報を漏らすのか？",
-    "test_idea": "記事で言及されているシナリオを自前のエージェント環境で再現し、脆弱性をテストする。",
-    "metrics": [
-      "情報漏洩リスク",
-      "プロンプトの有効性"
-    ],
-    "estimated_time": "2時間",
-    "estimated_cost_level": "low",
-    "decision": "SKIP",
-    "reason": "実践的なツール検証というよりはセキュリティ考察の色彩が強いため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T23:34:26.181136+00:00"
-  },
-  {
-    "item_id": "e057d1e28717213ab62e0c8fa61e7f17ac17af7cb5143e5ab0598f60dd0a6b6f",
-    "title": "Paygate – a non-custodial paywall AI agents pay each other with (USDC on Base)",
-    "url": "https://tollbooth402--691ab20aa91411f1867b1607ee4eb77e.web.val.run",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49576032 (points=2, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T12:47:16+00:00",
-    "intro_score": 4,
-    "verification_score": 4,
-    "final_score": 4.0,
-    "summary_ja": "AIエージェント同士がUSDCを用いて自律的に支払いを行うための非カストディアルなペイウォールツール。",
-    "title_ja": "AIエージェント間決済ツール：Base上のUSDC非カストディアルペイウォール",
-    "tags": [
-      "AIエージェント",
-      "USDC",
-      "決済",
-      "Base",
-      "OSS"
-    ],
-    "reader_question": "実際にエージェント同士で安全に決済を自動化できるのか？",
-    "test_idea": "ローカル環境で2つのAIエージェントを立ち上げ、Paygateを介して自動決済が行われるか検証する。",
-    "metrics": [
-      "トランザクション成功率",
-      "セットアップにかかるコマンド数"
-    ],
-    "estimated_time": "2-3時間",
-    "estimated_cost_level": "low",
-    "decision": "GO",
-    "reason": "AIエージェントの自律的な経済活動に関わる実用的なツールであり、個人でも検証可能であるため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T14:39:49.928519+00:00"
-  },
-  {
-    "item_id": "87794327817ade8a8b6c14d8e63dcbac0d5f86f41c0049a006706610bbff8549",
-    "title": "AI agents started emailing philosophers and researchers",
-    "url": "https://www.nytimes.com/2026/08/31/science/ai-consciousness-agents-email.html",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49575570 (points=3, comments=1)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T11:35:32+00:00",
-    "intro_score": 0,
-    "verification_score": 0,
-    "final_score": 0.0,
-    "summary_ja": "AIエージェントが自発的に人間の哲学者や研究者へメールを送り始めたという事例に関するニュース。",
-    "title_ja": "AIエージェントが哲学者や研究者にメールを送信",
-    "tags": [
-      "AIエージェント",
-      "社会",
-      "ニュース"
-    ],
-    "reader_question": "",
-    "test_idea": "",
-    "metrics": [],
-    "estimated_time": "",
-    "estimated_cost_level": "low",
-    "decision": "SKIP",
-    "reason": "社会論やニュース記事であり、自分で検証できるテーマではないため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T14:39:49.928519+00:00"
-  },
-  {
-    "item_id": "cc2660e193fec2fcc36d4c3258608e5d4073651ca7c4f884dbd0e8967466af79",
-    "title": "Show HN: I built an AI that audits businesses. It's first job was to catch me",
-    "url": "https://www.moltybeeai.com/#pricing",
-    "summary": "Hacker News discussion: https://news.ycombinator.com/item?id=49575248 (points=3, comments=0)",
-    "source": "Hacker News (AI Agent)",
-    "channel": "Hacker News",
-    "published_at": "2026-09-05T10:48:04+00:00",
-    "intro_score": 3,
-    "verification_score": 3,
-    "final_score": 3.0,
-    "summary_ja": "企業の監査を行うために開発されたAIで、最初の仕事として開発者自身を監査して不正を検知したというプロダクト。",
-    "title_ja": "企業監査AI：自身の不正を最初に見つけた監査エージェント",
-    "tags": [
-      "AIエージェント",
-      "ビジネス",
-      "監査",
-      "自動化"
-    ],
-    "reader_question": "この監査AIは実際にどれほど正確にビジネス上の不正や課題を発見できるのか？",
-    "test_idea": "デモや価格ページを基に、どのような基準で監査が行われるか、サンプルデータを投げて結果を比較する。",
-    "metrics": [
-      "監査項目の網羅性",
-      "検出精度"
-    ],
-    "estimated_time": "半日",
-    "estimated_cost_level": "low",
-    "decision": "HOLD",
-    "reason": "興味深いプロダクトだが、個人で試す際の実データや無料枠の有無が不透明なため。",
-    "topic_id": "ai-models",
-    "processed_at": "2026-09-05T14:39:49.928519+00:00"
   }
 ]
